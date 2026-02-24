@@ -36,6 +36,12 @@ public class AuthorService {
 		return authorRepo.save(author);
 	}
 	
+	public List<Author> insertAll(List<Author> authors)
+	{
+			 
+		return authorRepo.saveAll(authors);
+	}
+	
 	public Author update(Author author)
 	{
 		Author entity=findById(author.getId());

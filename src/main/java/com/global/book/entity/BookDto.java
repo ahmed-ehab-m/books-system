@@ -8,26 +8,25 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
-import jakarta.persistence.NamedAttributeNode;
-import jakarta.persistence.NamedEntityGraph;
 import jakarta.persistence.Table;
 
-@Entity
-@Table(name = "books")
-@NamedEntityGraph(name = "loadAuthor",attributeNodes =@NamedAttributeNode ("author"))
-public class Book {
+
+public class BookDto {
 	
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+
 	private Long id;
 	private String name;
 	private Double price;	
-	
-	@ManyToOne(fetch = FetchType.LAZY 	)
-	// foriegn key in the table , if i don't write  this statment sb will create it
-	@JoinColumn(name = "author_id") 
-	
-	private Author author;
+	private Author autohr;
+		
+
+	public Author getAutohr() {
+		return autohr;
+	}
+
+	public void setAutohr(Author autohr) {
+		this.autohr = autohr;
+	}
 
 	public Long getId() {
 		return id;
@@ -53,13 +52,6 @@ public class Book {
 		this.price = price;
 	}
 
-	public Author getAuthor() {
-		return author;
-	}
 
-	public void setAuthor(Author author) {
-		this.author = author;
-	}
-	
 	
 }

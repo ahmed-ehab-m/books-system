@@ -1,6 +1,8 @@
 package com.global.book.entity;
 
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -9,6 +11,7 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "authors")
+//@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class Author {
 	private Long id;
 	private String name; 
