@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -16,6 +17,8 @@ import com.global.book.entity.Book;
 import com.global.book.entity.BookDto;
 import com.global.book.service.AuthorService;
 import com.global.book.service.BookService;
+
+import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/book")
@@ -35,7 +38,7 @@ public class BookController {
 		 dto.setId(book.getId()); 
 		 dto.setName(book.getName());
 		 dto.setPrice(book.getPrice());
-		 dto.setAutohr(book.getAuthor());
+		 dto.setAuthor(book.getAuthor());
 		return ResponseEntity.ok(dto);
 	}
 	
@@ -46,15 +49,18 @@ public class BookController {
 	}
 	
 	@PostMapping("")
-	public ResponseEntity<?> insert(@RequestParam Book book)
+	public ResponseEntity<?> insert(@Valid @RequestBody BookDto dto)
 	{
-		
+		Book book=new Book();
+		book.setName(dto.getName());
+		book.setPrice(dto.getPrice());
+		book.setAuthor(dto.getAuthor());
 		return ResponseEntity.ok(bookService.insert(book));
 		
 	}
 	
 	@PutMapping("")
-	public ResponseEntity<?> update(@RequestParam Book book)
+	public ResponseEntity<?> update(@Valid @RequestParam Book book)
 	{
 		return ResponseEntity.ok( bookService.update(book));
 	}

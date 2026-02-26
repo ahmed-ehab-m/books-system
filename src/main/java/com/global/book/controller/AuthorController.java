@@ -15,6 +15,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.global.book.entity.Author;
 import com.global.book.service.AuthorService;
 
+import jakarta.validation.Valid;
+
 @RestController
 @RequestMapping("/author")
 public class AuthorController {
@@ -38,7 +40,7 @@ public class AuthorController {
 	}
 	
 	@PostMapping("")
-	public ResponseEntity<?> insert(@RequestBody Author author)
+	public ResponseEntity<?> insert(@Valid @RequestBody Author author)
 	{
 		
 		return ResponseEntity.ok(authorService.insert(author));
@@ -46,7 +48,7 @@ public class AuthorController {
 	}
 	
 	@PutMapping("")
-	public ResponseEntity<?> update(@RequestBody Author author)
+	public ResponseEntity<?> update(@Valid  @RequestBody Author author)
 	{
 		return ResponseEntity.ok(authorService.update(author));
 	}

@@ -1,40 +1,41 @@
 package com.global.book.entity;
 
 
-import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
 import org.hibernate.annotations.Formula;
-import org.springframework.data.annotation.CreatedBy;
-import org.springframework.data.annotation.CreatedDate;
-import org.springframework.data.annotation.LastModifiedBy;
-import org.springframework.data.annotation.LastModifiedDate;
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import com.global.book.base.BaseEntity;
 
 import jakarta.persistence.Entity;
-import jakarta.persistence.EntityListeners;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
-import jakarta.persistence.Transient;
-import org.springframework.data.jpa.domain.support.AuditingEntityListener;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.Pattern;
+
 
 @Entity
 @Table(name = "authors")
 //@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class Author extends BaseEntity<Long>{
 	
+	@NotBlank(message = "Should be enter author name")
 	private String name; 
 	
-//	@JsonIgnore
+	
+	@Pattern(regexp = "^([0-9]{1,3})\\.([0-9]{1,3})\\.([0-9]{1,3})\\.([0-9]{1,3})$")
+	private String ipAddress;
+	
+	@Email
+	private String email;
+	
+	
+//	@NotEmpty
 	@JsonManagedReference
 	@OneToMany(mappedBy = "author")
 	private List<Book> books = new ArrayList<>();
@@ -42,6 +43,19 @@ public class Author extends BaseEntity<Long>{
 	@Formula("(select count(*) from books book where book.author_id = id)")
 	private Long bookCount;
 	
+	
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public String getIpAddress() {
+		return ipAddress;
+	}
+	public void setIpAddress(String ipAddress) {
+		this.ipAddress = ipAddress;
+	}
 	public Long getBookCount() {
 		return bookCount;
 	}

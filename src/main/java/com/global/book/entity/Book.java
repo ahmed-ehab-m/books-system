@@ -27,6 +27,9 @@ import jakarta.persistence.NamedEntityGraph;
 import jakarta.persistence.PostLoad;
 import jakarta.persistence.Table;
 import jakarta.persistence.Transient;
+import jakarta.validation.constraints.Max;
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotNull;
 
 @Entity
 @Table(name = "books")
@@ -34,8 +37,11 @@ import jakarta.persistence.Transient;
 
 public class Book extends BaseEntity<Long>{
 	
-
+	@NotNull(message = "Should be enter book name")
 	private String name;
+	
+	@Min(value=5)
+	@Max(value=500)
 	private Double price;
 	
 	@Transient
@@ -46,6 +52,13 @@ public class Book extends BaseEntity<Long>{
 
 	private Long bookCount;
 	
+	@NotNull
+	@JsonBackReference
+	@ManyToOne(fetch = FetchType.LAZY)
+	// foriegn key in the table , if i don't write  this statment sb will create it
+	@JoinColumn(name = "author_id") 
+	
+	private Author author;
 	
 	
 	public Long getBookCount() {
@@ -70,12 +83,7 @@ public class Book extends BaseEntity<Long>{
 		this.setDiscounted(price*0.25);
 	}
 
-	@JsonBackReference
-	@ManyToOne(fetch = FetchType.LAZY)
-	// foriegn key in the table , if i don't write  this statment sb will create it
-	@JoinColumn(name = "author_id") 
 	
-	private Author author;
 
 	
 
