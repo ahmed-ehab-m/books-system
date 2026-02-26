@@ -38,18 +38,18 @@ public class StartUpApp implements CommandLineRunner{
 		Book book1=new Book();
 		book1.setName("Java");
 		book1.setPrice(500.0);
-		book1.setAuthor(authorService.findById(1L));
+		book1.setAuthor(authorService.getReferenceById(1L));
 			
 		Book book2=new Book();
 		book2.setName("c++");
 		book2.setPrice(300.0);
-		book2.setAuthor(authorService.findById(2L));
+		book2.setAuthor(authorService.getReferenceById(2L));
 		
-		
+			
 		Book book3=new Book();
 		book3.setName("python");
 		book3.setPrice(200.0);
-		book3.setAuthor(authorService.findById(3L));
+		book3.setAuthor(authorService.getReferenceById(3L));
 		
 		bookService.insertALL(Arrays.asList(book1,book2,book3));	 
 	}

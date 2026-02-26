@@ -55,4 +55,13 @@ public class BookService {
 	{
 		bookRepo.deleteById(id);
 	}
+	
+	public int deleteByAuthorId(Long id)
+	{
+		bookRepo.deleteAllInBatch();
+		return bookRepo.deleteByAuthorId(id);
+	}
+	
+	
+
 }

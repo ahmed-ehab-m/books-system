@@ -5,7 +5,10 @@ import java.util.Optional;
 
 import org.springframework.data.jpa.repository.EntityGraph;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Modifying;
+import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.global.book.entity.Author;
 import com.global.book.entity.Book;
@@ -19,4 +22,9 @@ public interface BookRepo extends JpaRepository<Book, Long>{
 	@Override
 	@EntityGraph(value = "loadAuthor") 
 	List<Book> findAll();
+	
+	@Transactional
+	@Modifying
+	@Query(value = "delete from Book where author.id= :id")
+	int deleteByAuthorId(Long id);
 }

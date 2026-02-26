@@ -21,6 +21,10 @@ public class AuthorService {
 	{
 		return authorRepo.findById(id).orElseThrow();
 	}
+	public Author getReferenceById(Long id)
+	{
+		return authorRepo.getReferenceById(id);
+	}
 	
 	public List<Author> findAll()
 	{

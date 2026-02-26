@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -37,7 +38,7 @@ public class AuthorController {
 	}
 	
 	@PostMapping("")
-	public ResponseEntity<?> insert(@RequestParam Author author)
+	public ResponseEntity<?> insert(@RequestBody Author author)
 	{
 		
 		return ResponseEntity.ok(authorService.insert(author));
@@ -45,9 +46,9 @@ public class AuthorController {
 	}
 	
 	@PutMapping("")
-	public ResponseEntity<?> update(@RequestParam Author author)
+	public ResponseEntity<?> update(@RequestBody Author author)
 	{
-		return ResponseEntity.ok( authorService.update(author));
+		return ResponseEntity.ok(authorService.update(author));
 	}
 	
 	@DeleteMapping("/{id}")
