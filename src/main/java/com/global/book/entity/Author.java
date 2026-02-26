@@ -8,6 +8,7 @@ import org.hibernate.annotations.Formula;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import com.global.book.base.BaseEntity;
+import com.global.book.validator.IpAddress;
 
 import jakarta.persistence.Entity;
 
@@ -27,8 +28,7 @@ public class Author extends BaseEntity<Long>{
 	@NotBlank(message = "Should be enter author name")
 	private String name; 
 	
-	
-	@Pattern(regexp = "^([0-9]{1,3})\\.([0-9]{1,3})\\.([0-9]{1,3})\\.([0-9]{1,3})$")
+	@IpAddress(message = "should be enter valid ip address")
 	private String ipAddress;
 	
 	@Email

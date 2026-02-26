@@ -2,6 +2,7 @@ package com.global.book.controller;
 
 
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -16,7 +17,10 @@ import com.global.book.entity.Author;
 import com.global.book.service.AuthorService;
 
 import jakarta.validation.Valid;
+import jakarta.validation.constraints.Max;
+import jakarta.validation.constraints.Min;
 
+@Validated
 @RestController
 @RequestMapping("/author")
 public class AuthorController {
@@ -28,7 +32,7 @@ public class AuthorController {
 	
 	
 	@GetMapping("/{id}")
-	public ResponseEntity<?> findById(@PathVariable Long id)
+	public ResponseEntity<?> findById(@PathVariable @Min(10) @Max(200) Long id)
 	{
 		return ResponseEntity.ok( authorService.findById(id));
 	}
