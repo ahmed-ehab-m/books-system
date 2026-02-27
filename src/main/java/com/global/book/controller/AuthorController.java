@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.global.book.entity.Author;
+import com.global.book.entity.AuthorSearch;
 import com.global.book.service.AuthorService;
 
 import jakarta.validation.Valid;
@@ -61,6 +62,13 @@ public class AuthorController {
 	public ResponseEntity<?> deleteById(@PathVariable Long id)
 	{
 	 authorService.deleteById(id);
-	 return ResponseEntity.ok(null);
+	 return ResponseEntity.ok(null); 
 	 }
+	
+	@PostMapping("/spec")
+	public ResponseEntity<?> findByAuthorSpec(@RequestBody  AuthorSearch authorSearch)
+	{
+		return ResponseEntity.ok(authorService.findbyAuthorSpec(authorSearch));
+	}
+	
 }
