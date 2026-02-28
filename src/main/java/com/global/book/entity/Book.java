@@ -24,7 +24,10 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.NamedAttributeNode;
 import jakarta.persistence.NamedEntityGraph;
+import jakarta.persistence.NamedStoredProcedureQuery;
+import jakarta.persistence.ParameterMode;
 import jakarta.persistence.PostLoad;
+import jakarta.persistence.StoredProcedureParameter;
 import jakarta.persistence.Table;
 import jakarta.persistence.Transient;
 import jakarta.validation.constraints.Max;
@@ -34,7 +37,11 @@ import jakarta.validation.constraints.NotNull;
 @Entity
 @Table(name = "books")
 @NamedEntityGraph(name = "loadAuthor",attributeNodes =@NamedAttributeNode ("author"))
-
+@NamedStoredProcedureQuery(name = "Book.getBookByAuthor",procedureName = "GET_BOOK_BY_AUTHOR",
+parameters = {
+		@StoredProcedureParameter(mode=ParameterMode.IN,name = "author_id_in",type = String.class),
+		@StoredProcedureParameter(mode=ParameterMode.OUT,name = "book_count",type= Integer.class)
+})
 public class Book extends BaseEntity<Long>{
 	
 	@NotNull(message = "Should be enter book name")

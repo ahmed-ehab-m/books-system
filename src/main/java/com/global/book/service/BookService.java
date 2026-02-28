@@ -3,6 +3,8 @@ package com.global.book.service;
 import java.sql.SQLException;
 import java.util.List;
 
+import org.hibernate.cfg.Environment;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.global.book.base.BaseService;
@@ -14,6 +16,13 @@ import com.global.book.repository.BookRepo;
 @Service
 public class BookService extends BaseService<Book,Long> {
 	private BookRepo bookRepo;
+	
+	
+	
+	private final static String USERS_PROC=".INSERT_JP_USERS";
+	
+	@Autowired
+	private Environment env;
 
 	public BookService(BookRepo bookRepo) {
 		super();
