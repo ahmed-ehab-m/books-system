@@ -28,10 +28,11 @@ public class Author extends BaseEntity<Long>{
 	@NotBlank(message = "Should be enter author name")
 	private String name; 
 	
-	@IpAddress(message = "should be enter valid ip address")
+//	@IpAddress(message = "validation.constraints.ip-address.message")
+	@IpAddress
 	private String ipAddress;
 	
-	@Email
+	@Email(message = "{validation.constraints.email.message}")
 	private String email;
 	
 	

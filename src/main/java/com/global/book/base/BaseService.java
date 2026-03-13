@@ -4,6 +4,8 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.MessageSource;
+import org.springframework.context.i18n.LocaleContextHolder;
 
 import com.global.book.error.RecordNotFoundException;
 
@@ -15,6 +17,9 @@ public class BaseService <T extends BaseEntity<ID> ,ID extends Number>{
 	@Autowired
 	private BaseRepo<T, ID> baseRepo;
 	
+	@Autowired
+	private MessageSource messageSource;
+	
 	public T findById(ID id)
 	{
 		Optional<T> entity= baseRepo.findById(id);
@@ -22,7 +27,12 @@ public class BaseService <T extends BaseEntity<ID> ,ID extends Number>{
 		{
 			return entity.get();
 		}
-		throw new RecordNotFoundException("this record with id: "+id +"not found");
+		else
+		{
+			String [] msgParam= {id.toString()};
+			String message = messageSource.getMessage("validation.recordNotFound.message", msgParam , LocaleContextHolder.getLocale());
+		throw new RecordNotFoundException(message);
+		}
 	}
 	public T getReferenceById(ID id)
 	{
