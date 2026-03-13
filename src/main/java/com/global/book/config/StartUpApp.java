@@ -23,6 +23,9 @@ public class StartUpApp implements CommandLineRunner{
 	@Override
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
+		
+		if(authorService.findAll().isEmpty())
+		{
 		Author author1=new Author();
 		author1.setName("ahmed");
 	
@@ -33,8 +36,11 @@ public class StartUpApp implements CommandLineRunner{
 		Author author3=new Author();
 		author3.setName("youssef");
 		
-		authorService.insertAll(Arrays.asList(author1,author2,author3));	 
+		authorService.insertAll(Arrays.asList(author1,author2,author3));
 		
+		}
+		if(bookService.findAll().isEmpty())
+		{
 		Book book1=new Book();
 		book1.setName("Java");
 		book1.setPrice(500.0);
@@ -52,6 +58,7 @@ public class StartUpApp implements CommandLineRunner{
 		book3.setAuthor(authorService.getReferenceById(3L));
 		
 		bookService.insertALL(Arrays.asList(book1,book2,book3));	 
+	
 	}
-
+	}
 }
