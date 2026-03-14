@@ -4,6 +4,8 @@ import java.sql.SQLException;
 import java.util.List;
 import java.util.Optional;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -20,12 +22,18 @@ public class AuthorService extends BaseService<Author, Long>{
 	@Autowired
 	private AuthorRepo authorRepo;
 	
+	Logger log=LoggerFactory.getLogger(AuthorService.class);
+	
 	@Override
 	public Author insert(Author entity) {
 		if(!entity.getEmail().isEmpty() && entity.getEmail() !=null)
 		{
 			Optional<Author> author=findByEmail(entity.getEmail());
+			
+			log.info("author name is : {}  and email is : {}",entity.getName(), entity.getEmail());
+			System.out.println("email is : "+ entity.getEmail());
 			if(author.isPresent())
+				log.error("this email already found with another author");
 				throw new DuplicateRecordException("this email already found with another author");
 		}
 		return super.insert(entity);
