@@ -12350,3 +12350,7 @@ Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'locked_by' in 'fiel
 2026-03-15 03:23:46,756 INFO c.g.b.s.PriceSchedule [task-8] compute discount 2026-03-15T03:23:46.756355600
 2026-03-15 03:23:50,754 INFO c.g.b.s.PriceSchedule [task-1] compute price 2026-03-15T03:23:50.754185600
 2026-03-15 03:23:52,763 INFO c.g.b.s.PriceSchedule [task-2] compute discount 2026-03-15T03:23:52.763787500
+2026-03-15 03:23:56,758 INFO c.g.b.s.PriceSchedule [task-5] compute price 2026-03-15T03:23:56.758973800
+2026-03-15 03:23:58,766 INFO c.g.b.s.PriceSchedule [task-8] compute discount 2026-03-15T03:23:58.766919200
+2026-03-15 03:24:02,773 INFO c.g.b.s.PriceSchedule [task-6] compute price 2026-03-15T03:24:02.773248100
+2026-03-15 03:24:04,760 INFO c.g.b.s.PriceSchedule [task-2] compute discount 2026-03-15T03:24:04.760000300

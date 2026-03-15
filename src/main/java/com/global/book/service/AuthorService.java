@@ -3,10 +3,12 @@ package com.global.book.service;
 import java.sql.SQLException;
 import java.util.List;
 import java.util.Optional;
+import java.util.concurrent.CompletableFuture;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
 import com.global.book.base.BaseService;
@@ -28,11 +30,11 @@ public class AuthorService extends BaseService<Author, Long>{
 	public Author insert(Author entity) {
 		if(!entity.getEmail().isEmpty() && entity.getEmail() !=null)
 		{
-			Optional<Author> author=findByEmail(entity.getEmail());
+			CompletableFuture<Author> author=findByEmail(entity.getEmail());
 			
 			log.info("author name is : {}  and email is : {}",entity.getName(), entity.getEmail());
 			System.out.println("email is : "+ entity.getEmail());
-			if(author.isPresent())
+			if(author.isDone())
 				log.error("this email already found with another author");
 				throw new DuplicateRecordException("this email already found with another author");
 		}
@@ -52,9 +54,10 @@ public class AuthorService extends BaseService<Author, Long>{
 		return authorRepo.findAll(spec);
 	}
 	
-	private Optional<Author> findByEmail(String email)
+	@Async(value="threadPoolTaskExecutor")
+	public CompletableFuture<Author> findByEmail(String email)
 	{
-		return authorRepo.findByEmail(email);
+		return CompletableFuture.completedFuture(authorRepo.findByEmail(email).get());
 	}
 
 }
