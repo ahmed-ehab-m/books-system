@@ -16,9 +16,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
 @EnableJpaAuditing(auditorAwareRef = "auditorAware")
-@EnableScheduling
-@EnableAsync
-@ConditionalOnProperty(name="scheduler.enabled",matchIfMissing = true)
+
 public class WebConfig implements WebMvcConfigurer {
 
 //    private final Validator getValidator;
