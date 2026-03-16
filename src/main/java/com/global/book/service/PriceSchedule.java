@@ -17,7 +17,7 @@ public class PriceSchedule {
 	Logger log=LoggerFactory.getLogger(PriceSchedule.class);
 	
 //	@Scheduled(cron= "${interval-in-cron}")
-	@Scheduled(fixedRate = 2000)
+//	@Scheduled(fixedRate = 2000)
 	@SchedulerLock(name="bookComputePrice")
 	
 	@Async
@@ -27,7 +27,7 @@ public class PriceSchedule {
 		log.info("compute price "+LocalDateTime.now());
 	}
 	
-	@Scheduled(fixedRate = 2000)
+//	@Scheduled(fixedRate = 2000)
 	@SchedulerLock(name="computeDiscount")
 	
 	@Async

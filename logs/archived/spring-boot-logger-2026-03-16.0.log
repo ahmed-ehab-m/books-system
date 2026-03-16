@@ -1,0 +1,1204 @@
+2026-03-16 02:41:01,805 INFO o.s.b.StartupInfoLogger [main] Starting DataJpaBooksProjectApplication using Java 21.0.8 with PID 1244 (D:\BackEnd RoadMap\new workspace\data-jpa-books-project\target\classes started by HP in D:\BackEnd RoadMap\new workspace\data-jpa-books-project)
+2026-03-16 02:41:01,809 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-16 02:41:01,811 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2026-03-16 02:41:07,380 INFO o.s.b.StartupInfoLogger [main] Started DataJpaBooksProjectApplication in 5.967 seconds (process running for 7.734)
+2026-03-16 02:41:11,474 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T02:41:11.474461500
+2026-03-16 02:41:11,474 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T02:41:11.474461500
+2026-03-16 02:41:17,413 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T02:41:17.413086700
+2026-03-16 02:41:17,413 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T02:41:17.413086700
+2026-03-16 02:41:23,406 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T02:41:23.406530200
+2026-03-16 02:41:23,406 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T02:41:23.406530200
+2026-03-16 02:41:29,399 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T02:41:29.399465400
+2026-03-16 02:41:29,399 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T02:41:29.399465400
+2026-03-16 02:41:35,408 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T02:41:35.408051300
+2026-03-16 02:41:35,408 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T02:41:35.408051300
+2026-03-16 02:41:41,407 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T02:41:41.407515800
+2026-03-16 02:41:41,407 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T02:41:41.407515800
+2026-03-16 02:41:47,401 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T02:41:47.401901100
+2026-03-16 02:41:47,401 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T02:41:47.401901100
+2026-03-16 02:41:53,395 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T02:41:53.395374700
+2026-03-16 02:41:53,395 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T02:41:53.395374700
+2026-03-16 02:41:59,409 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T02:41:59.409457500
+2026-03-16 02:41:59,409 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T02:41:59.409457500
+2026-03-16 02:42:05,409 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T02:42:05.409027700
+2026-03-16 02:42:05,409 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T02:42:05.409027700
+2026-03-16 02:42:11,406 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T02:42:11.406803500
+2026-03-16 02:42:11,406 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T02:42:11.406803500
+2026-03-16 02:42:17,405 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T02:42:17.405663900
+2026-03-16 02:42:17,405 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T02:42:17.405663900
+2026-03-16 02:42:23,410 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T02:42:23.410878400
+2026-03-16 02:42:23,410 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T02:42:23.410878400
+2026-03-16 02:42:29,400 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T02:42:29.400801500
+2026-03-16 02:42:29,400 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T02:42:29.400801500
+2026-03-16 02:42:35,409 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T02:42:35.409929
+2026-03-16 02:42:35,409 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T02:42:35.409929
+2026-03-16 02:42:41,405 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T02:42:41.405941100
+2026-03-16 02:42:41,405 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T02:42:41.405941100
+2026-03-16 02:42:47,400 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T02:42:47.400225200
+2026-03-16 02:42:47,400 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T02:42:47.400225200
+2026-03-16 02:42:53,401 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T02:42:53.401344600
+2026-03-16 02:42:53,401 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T02:42:53.401344600
+2026-03-16 02:42:59,396 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T02:42:59.396548200
+2026-03-16 02:42:59,396 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T02:42:59.396548200
+2026-03-16 02:43:05,408 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T02:43:05.408581100
+2026-03-16 02:43:05,408 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T02:43:05.408581100
+2026-03-16 02:43:11,395 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T02:43:11.395940200
+2026-03-16 02:43:11,395 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T02:43:11.395940200
+2026-03-16 02:43:17,398 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T02:43:17.398861700
+2026-03-16 02:43:17,398 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T02:43:17.398861700
+2026-03-16 02:43:23,415 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T02:43:23.415031
+2026-03-16 02:43:23,415 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T02:43:23.415031
+2026-03-16 02:43:29,400 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T02:43:29.400155
+2026-03-16 02:43:29,400 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T02:43:29.400155
+2026-03-16 02:43:35,388 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T02:43:35.388421500
+2026-03-16 02:43:35,389 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T02:43:35.388421500
+2026-03-16 02:43:39,408 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T02:43:39.408904600
+2026-03-16 02:43:41,405 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T02:43:41.405174900
+2026-03-16 02:43:45,402 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T02:43:45.402360500
+2026-03-16 02:43:45,409 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler [AsynchThread::2] Unexpected exception occurred invoking async method: public void com.global.book.service.PriceSchedule.computeDiscount() throws java.lang.InterruptedException
+org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction
+	at org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:319)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:532)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:405)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:134)
+	at net.javacrumbs.shedlock.provider.jdbctemplate.JdbcTemplateStorageAccessor.execute(JdbcTemplateStorageAccessor.java:121)
+	at net.javacrumbs.shedlock.provider.jdbctemplate.JdbcTemplateStorageAccessor.doUnlock(JdbcTemplateStorageAccessor.java:116)
+	at net.javacrumbs.shedlock.provider.jdbctemplate.JdbcTemplateStorageAccessor.unlock(JdbcTemplateStorageAccessor.java:106)
+	at net.javacrumbs.shedlock.support.StorageBasedLockProvider$StorageLock.doUnlock(StorageBasedLockProvider.java:112)
+	at net.javacrumbs.shedlock.core.AbstractSimpleLock.unlock(AbstractSimpleLock.java:30)
+	at net.javacrumbs.shedlock.core.DefaultLockingTaskExecutor.executeWithLock(DefaultLockingTaskExecutor.java:75)
+	at net.javacrumbs.shedlock.spring.aop.MethodProxyScheduledLockAdvisor$LockingInterceptor.invoke(MethodProxyScheduledLockAdvisor.java:84)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:112)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-1) has been closed.
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:95)
+	at org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:270)
+	... 16 common frames omitted
+2026-03-16 02:43:47,403 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T02:43:47.403380200
+2026-03-16 02:43:47,404 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler [AsynchThread::4] Unexpected exception occurred invoking async method: public void com.global.book.service.PriceSchedule.computePrice() throws java.lang.InterruptedException
+org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction
+	at org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:319)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:532)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:405)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:134)
+	at net.javacrumbs.shedlock.provider.jdbctemplate.JdbcTemplateStorageAccessor.execute(JdbcTemplateStorageAccessor.java:121)
+	at net.javacrumbs.shedlock.provider.jdbctemplate.JdbcTemplateStorageAccessor.doUnlock(JdbcTemplateStorageAccessor.java:116)
+	at net.javacrumbs.shedlock.provider.jdbctemplate.JdbcTemplateStorageAccessor.unlock(JdbcTemplateStorageAccessor.java:106)
+	at net.javacrumbs.shedlock.support.StorageBasedLockProvider$StorageLock.doUnlock(StorageBasedLockProvider.java:112)
+	at net.javacrumbs.shedlock.core.AbstractSimpleLock.unlock(AbstractSimpleLock.java:30)
+	at net.javacrumbs.shedlock.core.DefaultLockingTaskExecutor.executeWithLock(DefaultLockingTaskExecutor.java:75)
+	at net.javacrumbs.shedlock.spring.aop.MethodProxyScheduledLockAdvisor$LockingInterceptor.invoke(MethodProxyScheduledLockAdvisor.java:84)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:112)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-1) has been closed.
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:95)
+	at org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:270)
+	... 16 common frames omitted
+2026-03-16 02:44:00,627 INFO o.s.b.StartupInfoLogger [main] Starting DataJpaBooksProjectApplication using Java 21.0.8 with PID 11812 (D:\BackEnd RoadMap\new workspace\data-jpa-books-project\target\classes started by HP in D:\BackEnd RoadMap\new workspace\data-jpa-books-project)
+2026-03-16 02:44:00,628 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-16 02:44:00,629 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2026-03-16 02:44:00,839 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-16 02:44:01,307 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-16 02:44:01,367 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 51 ms. Found 2 JPA repository interfaces.
+2026-03-16 02:44:01,975 INFO o.s.b.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2026-03-16 02:44:02,094 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-16 02:44:02,098 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2026-03-16 02:44:02,099 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-16 02:44:02,155 INFO o.s.b.w.c.s.WebApplicationContextInitializer [main] Root WebApplicationContext: initialization completed in 1474 ms
+2026-03-16 02:44:02,314 INFO o.h.j.i.u.LogHelper [main] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-16 02:44:02,368 INFO o.h.Version [main] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-16 02:44:02,784 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-16 02:44:02,816 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2026-03-16 02:44:03,140 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@18c60d81
+2026-03-16 02:44:03,142 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2026-03-16 02:44:03,197 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-16 02:44:03,215 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [main] HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/book?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: book/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-16 02:44:04,403 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-16 02:44:04,487 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-16 02:44:04,582 INFO o.s.d.j.r.q.QueryEnhancerFactories [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-16 02:44:05,441 WARN o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-16 02:44:05,812 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2026-03-16 02:44:05,830 INFO o.s.b.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
+2026-03-16 02:44:05,840 INFO o.s.b.StartupInfoLogger [main] Started DataJpaBooksProjectApplication in 5.6 seconds (process running for 6.488)
+2026-03-16 02:53:45,864 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T02:53:45.864916
+2026-03-16 02:53:47,862 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T02:53:47.862952200
+2026-03-16 02:53:51,862 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T02:53:51.862591700
+2026-03-16 02:53:52,200 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(20)-127.0.0.1] Application shutdown requested.
+2026-03-16 02:53:52,206 INFO o.s.b.t.GracefulShutdown [RMI TCP Connection(20)-127.0.0.1] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-16 02:53:52,208 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2026-03-16 02:53:52,213 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2026-03-16 02:53:52,214 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(20)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2026-03-16 02:53:52,219 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(20)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-16 02:53:52,222 INFO c.z.h.HikariDataSource [RMI TCP Connection(20)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2026-03-16 02:53:52,228 INFO c.z.h.HikariDataSource [RMI TCP Connection(20)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2026-03-16 02:53:53,866 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T02:53:53.866754400
+2026-03-16 02:53:53,872 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler [AsynchThread::2] Unexpected exception occurred invoking async method: public void com.global.book.service.PriceSchedule.computePrice() throws java.lang.InterruptedException
+org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction
+	at org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:319)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:532)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:405)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:134)
+	at net.javacrumbs.shedlock.provider.jdbctemplate.JdbcTemplateStorageAccessor.execute(JdbcTemplateStorageAccessor.java:121)
+	at net.javacrumbs.shedlock.provider.jdbctemplate.JdbcTemplateStorageAccessor.doUnlock(JdbcTemplateStorageAccessor.java:116)
+	at net.javacrumbs.shedlock.provider.jdbctemplate.JdbcTemplateStorageAccessor.unlock(JdbcTemplateStorageAccessor.java:106)
+	at net.javacrumbs.shedlock.support.StorageBasedLockProvider$StorageLock.doUnlock(StorageBasedLockProvider.java:112)
+	at net.javacrumbs.shedlock.core.AbstractSimpleLock.unlock(AbstractSimpleLock.java:30)
+	at net.javacrumbs.shedlock.core.DefaultLockingTaskExecutor.executeWithLock(DefaultLockingTaskExecutor.java:75)
+	at net.javacrumbs.shedlock.spring.aop.MethodProxyScheduledLockAdvisor$LockingInterceptor.invoke(MethodProxyScheduledLockAdvisor.java:84)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:112)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-1) has been closed.
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:95)
+	at org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:270)
+	... 16 common frames omitted
+2026-03-16 02:54:09,178 INFO o.s.b.StartupInfoLogger [main] Starting DataJpaBooksProjectApplication using Java 21.0.8 with PID 16780 (D:\BackEnd RoadMap\new workspace\data-jpa-books-project\target\classes started by HP in D:\BackEnd RoadMap\new workspace\data-jpa-books-project)
+2026-03-16 02:54:09,180 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-16 02:54:09,181 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2026-03-16 02:54:09,381 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-16 02:54:09,866 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-16 02:54:09,925 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 51 ms. Found 2 JPA repository interfaces.
+2026-03-16 02:54:10,565 INFO o.s.b.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2026-03-16 02:54:10,576 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-16 02:54:10,578 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2026-03-16 02:54:10,580 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-16 02:54:10,637 INFO o.s.b.w.c.s.WebApplicationContextInitializer [main] Root WebApplicationContext: initialization completed in 1408 ms
+2026-03-16 02:54:10,800 INFO o.h.j.i.u.LogHelper [main] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-16 02:54:10,850 INFO o.h.Version [main] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-16 02:54:11,264 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-16 02:54:11,296 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2026-03-16 02:54:11,622 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b58d678
+2026-03-16 02:54:11,625 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2026-03-16 02:54:11,678 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-16 02:54:11,695 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [main] HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/book?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: book/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-16 02:54:12,777 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-16 02:54:12,867 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-16 02:54:12,973 INFO o.s.d.j.r.q.QueryEnhancerFactories [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-16 02:54:13,845 WARN o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-16 02:54:14,222 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2026-03-16 02:54:14,241 INFO o.s.b.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
+2026-03-16 02:54:14,250 INFO o.s.b.StartupInfoLogger [main] Started DataJpaBooksProjectApplication in 5.431 seconds (process running for 6.309)
+2026-03-16 02:54:18,306 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T02:54:18.305233100
+2026-03-16 02:54:24,270 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T02:54:24.270496500
+2026-03-16 02:54:30,281 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T02:54:30.281586200
+2026-03-16 02:54:36,264 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T02:54:36.264668200
+2026-03-16 02:54:42,282 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T02:54:42.282143900
+2026-03-16 02:54:48,269 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T02:54:48.269800100
+2026-03-16 02:54:54,278 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T02:54:54.278149
+2026-03-16 02:55:00,268 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T02:55:00.268939900
+2026-03-16 02:55:06,272 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T02:55:06.272182
+2026-03-16 02:55:12,271 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T02:55:12.271586400
+2026-03-16 02:55:18,281 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T02:55:18.281079700
+2026-03-16 02:55:24,270 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T02:55:24.270205600
+2026-03-16 02:55:30,273 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T02:55:30.273762100
+2026-03-16 02:55:31,859 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(10)-127.0.0.1] Application shutdown requested.
+2026-03-16 02:55:31,865 INFO o.s.b.t.GracefulShutdown [RMI TCP Connection(10)-127.0.0.1] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-16 02:55:31,867 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2026-03-16 02:55:31,871 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2026-03-16 02:55:31,873 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(10)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2026-03-16 02:55:31,879 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(10)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-16 02:55:31,882 INFO c.z.h.HikariDataSource [RMI TCP Connection(10)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2026-03-16 02:55:31,887 INFO c.z.h.HikariDataSource [RMI TCP Connection(10)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2026-03-16 02:55:36,609 INFO o.s.b.StartupInfoLogger [main] Starting DataJpaBooksProjectApplication using Java 21.0.8 with PID 15736 (D:\BackEnd RoadMap\new workspace\data-jpa-books-project\target\classes started by HP in D:\BackEnd RoadMap\new workspace\data-jpa-books-project)
+2026-03-16 02:55:36,609 INFO o.s.b.StartupInfoLogger [main] Starting DataJpaBooksProjectApplication using Java 21.0.8 with PID 5376 (D:\BackEnd RoadMap\new workspace\data-jpa-books-project\target\classes started by HP in D:\BackEnd RoadMap\new workspace\data-jpa-books-project)
+2026-03-16 02:55:36,611 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-16 02:55:36,613 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-16 02:55:36,613 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2026-03-16 02:55:36,613 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2026-03-16 02:55:36,904 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-16 02:55:36,909 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-16 02:55:37,693 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-16 02:55:37,693 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-16 02:55:37,814 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 100 ms. Found 2 JPA repository interfaces.
+2026-03-16 02:55:37,814 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 101 ms. Found 2 JPA repository interfaces.
+2026-03-16 02:55:39,075 INFO o.s.b.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2026-03-16 02:55:39,094 INFO o.s.b.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2026-03-16 02:55:39,098 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-16 02:55:39,101 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2026-03-16 02:55:39,102 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-16 02:55:39,117 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-16 02:55:39,120 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2026-03-16 02:55:39,121 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-16 02:55:39,219 INFO o.s.b.w.c.s.WebApplicationContextInitializer [main] Root WebApplicationContext: initialization completed in 2546 ms
+2026-03-16 02:55:39,236 INFO o.s.b.w.c.s.WebApplicationContextInitializer [main] Root WebApplicationContext: initialization completed in 2563 ms
+2026-03-16 02:55:39,540 INFO o.h.j.i.u.LogHelper [main] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-16 02:55:39,553 INFO o.h.j.i.u.LogHelper [main] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-16 02:55:39,609 INFO o.h.Version [main] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-16 02:55:39,623 INFO o.h.Version [main] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-16 02:55:40,151 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-16 02:55:40,163 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-16 02:55:40,186 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2026-03-16 02:55:40,200 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2026-03-16 02:55:40,595 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@75dbe490
+2026-03-16 02:55:40,598 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2026-03-16 02:55:40,609 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2560a7be
+2026-03-16 02:55:40,612 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2026-03-16 02:55:40,661 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-16 02:55:40,674 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-16 02:55:40,683 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [main] HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/book?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: book/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-16 02:55:40,695 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [main] HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/book?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: book/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-16 02:55:41,998 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-16 02:55:42,010 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-16 02:55:42,092 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-16 02:55:42,098 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-16 02:55:42,219 INFO o.s.d.j.r.q.QueryEnhancerFactories [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-16 02:55:42,234 INFO o.s.d.j.r.q.QueryEnhancerFactories [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-16 02:55:43,251 WARN o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-16 02:55:43,254 WARN o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-16 02:55:43,713 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2026-03-16 02:55:43,739 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2026-03-16 02:55:43,745 INFO o.s.b.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
+2026-03-16 02:55:43,754 INFO o.s.b.StartupInfoLogger [main] Started DataJpaBooksProjectApplication in 7.581 seconds (process running for 8.599)
+2026-03-16 02:55:43,852 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-03-16 02:55:43,856 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-16 02:55:43,860 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2026-03-16 02:55:43,870 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2026-03-16 02:55:43,879 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-16 02:55:43,901 ERROR o.s.b.d.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-03-16 02:55:47,815 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T02:55:47.815781
+2026-03-16 02:55:49,526 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(7)-127.0.0.1] Application shutdown requested.
+2026-03-16 02:55:49,531 INFO o.s.b.t.GracefulShutdown [RMI TCP Connection(7)-127.0.0.1] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-16 02:55:49,533 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2026-03-16 02:55:49,537 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2026-03-16 02:55:49,537 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(7)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2026-03-16 02:55:49,544 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(7)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-16 02:55:49,546 INFO c.z.h.HikariDataSource [RMI TCP Connection(7)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2026-03-16 02:55:49,553 INFO c.z.h.HikariDataSource [RMI TCP Connection(7)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2026-03-16 21:52:04,154 INFO o.s.b.StartupInfoLogger [main] Starting DataJpaBooksProjectApplication using Java 21.0.8 with PID 9580 (D:\BackEnd RoadMap\new workspace\data-jpa-books-project\target\classes started by HP in D:\BackEnd RoadMap\new workspace\data-jpa-books-project)
+2026-03-16 21:52:04,259 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-16 21:52:04,260 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2026-03-16 21:52:04,404 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-16 21:52:05,243 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-16 21:52:05,316 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 64 ms. Found 2 JPA repository interfaces.
+2026-03-16 21:52:05,929 INFO o.s.b.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2026-03-16 21:52:05,941 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-16 21:52:05,943 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2026-03-16 21:52:05,944 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-16 21:52:06,006 INFO o.s.b.w.c.s.WebApplicationContextInitializer [main] Root WebApplicationContext: initialization completed in 1690 ms
+2026-03-16 21:52:06,170 INFO o.h.j.i.u.LogHelper [main] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-16 21:52:06,218 INFO o.h.Version [main] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-16 21:52:06,624 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-16 21:52:06,655 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2026-03-16 21:52:07,021 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@259aec72
+2026-03-16 21:52:07,022 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2026-03-16 21:52:07,081 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-16 21:52:07,100 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [main] HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/book?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: book/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-16 21:52:08,147 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-16 21:52:08,230 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-16 21:52:08,324 INFO o.s.d.j.r.q.QueryEnhancerFactories [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-16 21:52:09,159 WARN o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-16 21:52:09,521 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2026-03-16 21:52:09,543 INFO o.s.b.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
+2026-03-16 21:52:09,552 INFO o.s.b.StartupInfoLogger [main] Started DataJpaBooksProjectApplication in 5.783 seconds (process running for 13.347)
+2026-03-16 21:52:13,625 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T21:52:13.625018100
+2026-03-16 21:52:13,625 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T21:52:13.625018100
+2026-03-16 21:52:19,572 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T21:52:19.572151100
+2026-03-16 21:52:19,587 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T21:52:19.587376
+2026-03-16 21:52:25,587 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T21:52:25.587746500
+2026-03-16 21:52:25,587 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T21:52:25.587746500
+2026-03-16 21:52:31,573 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T21:52:31.573153800
+2026-03-16 21:52:31,589 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T21:52:31.589021
+2026-03-16 21:52:37,578 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T21:52:37.578852100
+2026-03-16 21:52:37,578 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T21:52:37.578852100
+2026-03-16 21:52:43,578 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T21:52:43.578818400
+2026-03-16 21:52:43,578 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T21:52:43.578818400
+2026-03-16 21:52:49,584 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T21:52:49.584485600
+2026-03-16 21:52:49,584 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T21:52:49.584485600
+2026-03-16 21:52:55,585 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T21:52:55.585780100
+2026-03-16 21:52:55,585 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T21:52:55.585780100
+2026-03-16 21:53:01,566 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T21:53:01.566389900
+2026-03-16 21:53:01,566 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T21:53:01.566389900
+2026-03-16 21:53:07,570 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T21:53:07.570141300
+2026-03-16 21:53:07,585 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T21:53:07.585626800
+2026-03-16 21:53:13,581 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T21:53:13.581825600
+2026-03-16 21:53:13,581 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T21:53:13.581825600
+2026-03-16 21:53:19,591 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T21:53:19.591906400
+2026-03-16 21:53:19,591 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T21:53:19.591906400
+2026-03-16 21:53:25,570 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T21:53:25.570695200
+2026-03-16 21:53:25,570 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T21:53:25.570695200
+2026-03-16 21:53:31,569 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T21:53:31.569580700
+2026-03-16 21:53:31,569 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T21:53:31.569580700
+2026-03-16 21:53:37,583 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T21:53:37.583640500
+2026-03-16 21:53:37,583 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T21:53:37.583640500
+2026-03-16 21:53:43,579 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T21:53:43.579093100
+2026-03-16 21:53:43,579 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T21:53:43.579093100
+2026-03-16 21:53:49,574 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T21:53:49.574627500
+2026-03-16 21:53:49,574 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T21:53:49.574627500
+2026-03-16 21:53:55,572 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T21:53:55.572369400
+2026-03-16 21:53:55,587 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T21:53:55.587196800
+2026-03-16 21:54:01,572 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T21:54:01.572354200
+2026-03-16 21:54:01,572 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T21:54:01.572354200
+2026-03-16 21:54:07,586 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T21:54:07.586772400
+2026-03-16 21:54:07,586 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T21:54:07.586772400
+2026-03-16 21:54:13,581 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T21:54:13.581670700
+2026-03-16 21:54:13,581 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T21:54:13.581670700
+2026-03-16 21:54:19,570 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T21:54:19.570768500
+2026-03-16 21:54:19,570 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T21:54:19.570768500
+2026-03-16 21:54:25,581 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T21:54:25.581454400
+2026-03-16 21:54:25,581 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T21:54:25.581454400
+2026-03-16 21:54:31,570 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T21:54:31.570763700
+2026-03-16 21:54:31,570 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T21:54:31.570763700
+2026-03-16 21:54:37,568 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T21:54:37.568987100
+2026-03-16 21:54:37,583 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T21:54:37.583551900
+2026-03-16 21:54:43,574 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T21:54:43.574727900
+2026-03-16 21:54:43,590 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T21:54:43.590091200
+2026-03-16 21:54:49,573 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T21:54:49.573345900
+2026-03-16 21:54:49,573 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T21:54:49.573345900
+2026-03-16 21:54:55,576 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T21:54:55.576962800
+2026-03-16 21:54:55,576 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T21:54:55.576962800
+2026-03-16 21:55:01,590 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T21:55:01.590897200
+2026-03-16 21:55:01,590 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T21:55:01.590897200
+2026-03-16 21:55:07,569 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T21:55:07.569295400
+2026-03-16 21:55:07,569 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T21:55:07.569295400
+2026-03-16 21:55:13,566 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T21:55:13.566874300
+2026-03-16 21:55:13,569 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T21:55:13.569135800
+2026-03-16 21:55:19,566 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T21:55:19.566951600
+2026-03-16 21:55:19,568 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T21:55:19.568704700
+2026-03-16 21:55:25,564 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T21:55:25.564268900
+2026-03-16 21:55:25,564 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T21:55:25.564268900
+2026-03-16 21:55:31,559 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T21:55:31.559559700
+2026-03-16 21:55:31,561 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T21:55:31.561378400
+2026-03-16 21:55:37,568 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T21:55:37.568557800
+2026-03-16 21:55:37,568 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T21:55:37.568557800
+2026-03-16 21:55:43,565 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T21:55:43.565695500
+2026-03-16 21:55:43,566 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T21:55:43.566659100
+2026-03-16 21:55:49,567 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T21:55:49.567192300
+2026-03-16 21:55:49,572 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T21:55:49.572998600
+2026-03-16 21:55:55,559 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T21:55:55.559956900
+2026-03-16 21:55:55,560 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T21:55:55.560897100
+2026-03-16 21:56:01,565 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T21:56:01.565769200
+2026-03-16 21:56:01,566 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T21:56:01.566959900
+2026-03-16 21:56:07,559 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T21:56:07.559441400
+2026-03-16 21:56:07,559 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T21:56:07.559441400
+2026-03-16 21:56:13,581 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T21:56:13.581681400
+2026-03-16 21:56:13,581 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T21:56:13.581681400
+2026-03-16 21:56:19,586 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T21:56:19.586357
+2026-03-16 21:56:19,586 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T21:56:19.586357
+2026-03-16 21:56:25,566 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T21:56:25.566623200
+2026-03-16 21:56:25,566 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T21:56:25.566623200
+2026-03-16 21:56:31,585 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T21:56:31.585177500
+2026-03-16 21:56:31,585 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T21:56:31.585177500
+2026-03-16 21:56:37,569 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T21:56:37.569206900
+2026-03-16 21:56:37,569 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T21:56:37.569206900
+2026-03-16 21:56:43,569 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T21:56:43.569219500
+2026-03-16 21:56:43,569 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T21:56:43.569219500
+2026-03-16 21:56:49,562 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T21:56:49.562517800
+2026-03-16 21:56:49,562 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T21:56:49.562517800
+2026-03-16 21:56:55,578 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T21:56:55.578358700
+2026-03-16 21:56:55,578 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T21:56:55.578358700
+2026-03-16 21:57:01,578 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T21:57:01.578908700
+2026-03-16 21:57:01,578 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T21:57:01.578908700
+2026-03-16 21:57:07,590 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T21:57:07.590359500
+2026-03-16 21:57:07,590 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T21:57:07.590359500
+2026-03-16 21:57:13,586 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T21:57:13.586070300
+2026-03-16 21:57:13,586 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T21:57:13.586070300
+2026-03-16 21:57:19,568 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T21:57:19.568347600
+2026-03-16 21:57:19,568 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T21:57:19.568347600
+2026-03-16 21:57:25,569 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T21:57:25.569375700
+2026-03-16 21:57:25,569 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T21:57:25.569375700
+2026-03-16 21:57:31,567 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T21:57:31.567919900
+2026-03-16 21:57:31,567 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T21:57:31.567919900
+2026-03-16 21:57:37,573 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T21:57:37.573404900
+2026-03-16 21:57:37,573 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T21:57:37.573404900
+2026-03-16 21:57:43,574 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T21:57:43.574803900
+2026-03-16 21:57:43,574 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T21:57:43.574803900
+2026-03-16 21:57:49,583 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T21:57:49.583606700
+2026-03-16 21:57:49,583 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T21:57:49.583606700
+2026-03-16 21:57:55,568 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T21:57:55.568777100
+2026-03-16 21:57:55,568 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T21:57:55.568777100
+2026-03-16 21:58:01,565 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T21:58:01.565719800
+2026-03-16 21:58:01,565 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T21:58:01.565719800
+2026-03-16 21:58:07,587 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T21:58:07.587489600
+2026-03-16 21:58:07,587 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T21:58:07.587489600
+2026-03-16 21:58:13,563 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T21:58:13.563994200
+2026-03-16 21:58:13,564 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T21:58:13.564929500
+2026-03-16 21:58:19,558 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T21:58:19.558939400
+2026-03-16 21:58:19,559 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T21:58:19.559938300
+2026-03-16 21:58:25,559 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T21:58:25.559061900
+2026-03-16 21:58:25,560 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T21:58:25.560061700
+2026-03-16 21:58:29,809 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(17)-127.0.0.1] Application shutdown requested.
+2026-03-16 21:58:29,814 INFO o.s.b.t.GracefulShutdown [RMI TCP Connection(17)-127.0.0.1] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-16 21:58:29,816 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2026-03-16 21:58:29,820 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2026-03-16 21:58:29,850 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(17)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2026-03-16 21:58:29,856 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(17)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-16 21:58:29,859 INFO c.z.h.HikariDataSource [RMI TCP Connection(17)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2026-03-16 21:58:29,867 INFO c.z.h.HikariDataSource [RMI TCP Connection(17)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2026-03-16 21:58:31,562 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T21:58:31.562626500
+2026-03-16 21:58:31,563 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T21:58:31.563654200
+2026-03-16 21:58:31,568 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler [AsynchThread::4] Unexpected exception occurred invoking async method: public void com.global.book.service.PriceSchedule.computePrice() throws java.lang.InterruptedException
+org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction
+	at org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:319)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:532)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:405)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:134)
+	at net.javacrumbs.shedlock.provider.jdbctemplate.JdbcTemplateStorageAccessor.execute(JdbcTemplateStorageAccessor.java:121)
+	at net.javacrumbs.shedlock.provider.jdbctemplate.JdbcTemplateStorageAccessor.doUnlock(JdbcTemplateStorageAccessor.java:116)
+	at net.javacrumbs.shedlock.provider.jdbctemplate.JdbcTemplateStorageAccessor.unlock(JdbcTemplateStorageAccessor.java:106)
+	at net.javacrumbs.shedlock.support.StorageBasedLockProvider$StorageLock.doUnlock(StorageBasedLockProvider.java:112)
+	at net.javacrumbs.shedlock.core.AbstractSimpleLock.unlock(AbstractSimpleLock.java:30)
+	at net.javacrumbs.shedlock.core.DefaultLockingTaskExecutor.executeWithLock(DefaultLockingTaskExecutor.java:75)
+	at net.javacrumbs.shedlock.spring.aop.MethodProxyScheduledLockAdvisor$LockingInterceptor.invoke(MethodProxyScheduledLockAdvisor.java:84)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:112)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-1) has been closed.
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:95)
+	at org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:270)
+	... 16 common frames omitted
+2026-03-16 21:58:31,568 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler [AsynchThread::3] Unexpected exception occurred invoking async method: public void com.global.book.service.PriceSchedule.computeDiscount() throws java.lang.InterruptedException
+org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction
+	at org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:319)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:532)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:405)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:134)
+	at net.javacrumbs.shedlock.provider.jdbctemplate.JdbcTemplateStorageAccessor.execute(JdbcTemplateStorageAccessor.java:121)
+	at net.javacrumbs.shedlock.provider.jdbctemplate.JdbcTemplateStorageAccessor.doUnlock(JdbcTemplateStorageAccessor.java:116)
+	at net.javacrumbs.shedlock.provider.jdbctemplate.JdbcTemplateStorageAccessor.unlock(JdbcTemplateStorageAccessor.java:106)
+	at net.javacrumbs.shedlock.support.StorageBasedLockProvider$StorageLock.doUnlock(StorageBasedLockProvider.java:112)
+	at net.javacrumbs.shedlock.core.AbstractSimpleLock.unlock(AbstractSimpleLock.java:30)
+	at net.javacrumbs.shedlock.core.DefaultLockingTaskExecutor.executeWithLock(DefaultLockingTaskExecutor.java:75)
+	at net.javacrumbs.shedlock.spring.aop.MethodProxyScheduledLockAdvisor$LockingInterceptor.invoke(MethodProxyScheduledLockAdvisor.java:84)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:112)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-1) has been closed.
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:95)
+	at org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:270)
+	... 16 common frames omitted
+2026-03-16 21:58:47,220 INFO o.s.b.StartupInfoLogger [main] Starting DataJpaBooksProjectApplication using Java 21.0.8 with PID 4024 (D:\BackEnd RoadMap\new workspace\data-jpa-books-project\target\classes started by HP in D:\BackEnd RoadMap\new workspace\data-jpa-books-project)
+2026-03-16 21:58:47,223 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-16 21:58:47,224 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2026-03-16 21:58:47,446 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-16 21:58:47,968 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-16 21:58:48,030 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 52 ms. Found 2 JPA repository interfaces.
+2026-03-16 21:58:48,651 INFO o.s.b.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2026-03-16 21:58:48,663 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-16 21:58:48,665 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2026-03-16 21:58:48,666 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-16 21:58:48,720 INFO o.s.b.w.c.s.WebApplicationContextInitializer [main] Root WebApplicationContext: initialization completed in 1446 ms
+2026-03-16 21:58:48,887 INFO o.h.j.i.u.LogHelper [main] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-16 21:58:48,938 INFO o.h.Version [main] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-16 21:58:49,353 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-16 21:58:49,389 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2026-03-16 21:58:49,714 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62d6ac
+2026-03-16 21:58:49,716 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2026-03-16 21:58:49,767 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-16 21:58:49,784 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [main] HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/book?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: book/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-16 21:58:50,855 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-16 21:58:50,936 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-16 21:58:51,029 INFO o.s.d.j.r.q.QueryEnhancerFactories [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-16 21:58:51,873 WARN o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-16 21:58:52,240 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2026-03-16 21:58:52,258 INFO o.s.b.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
+2026-03-16 21:58:52,266 INFO o.s.b.StartupInfoLogger [main] Started DataJpaBooksProjectApplication in 5.409 seconds (process running for 6.491)
+2026-03-16 22:08:32,311 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T22:08:32.310586600
+2026-03-16 22:08:32,311 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T22:08:32.310586600
+2026-03-16 22:08:38,288 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T22:08:38.288171800
+2026-03-16 22:08:38,288 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T22:08:38.288171800
+2026-03-16 22:08:44,298 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T22:08:44.298977600
+2026-03-16 22:08:44,298 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T22:08:44.298977600
+2026-03-16 22:08:50,299 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T22:08:50.299290400
+2026-03-16 22:08:50,299 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T22:08:50.299290400
+2026-03-16 22:08:56,295 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T22:08:56.295214900
+2026-03-16 22:08:56,295 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T22:08:56.295214900
+2026-03-16 22:09:02,295 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T22:09:02.295443400
+2026-03-16 22:09:02,295 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T22:09:02.295443400
+2026-03-16 22:09:08,275 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T22:09:08.275552500
+2026-03-16 22:09:08,275 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T22:09:08.275552500
+2026-03-16 22:09:14,285 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T22:09:14.285341400
+2026-03-16 22:09:14,285 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T22:09:14.285341400
+2026-03-16 22:09:20,283 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T22:09:20.283220500
+2026-03-16 22:09:20,283 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T22:09:20.283220500
+2026-03-16 22:09:26,295 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T22:09:26.295246100
+2026-03-16 22:09:26,295 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T22:09:26.295246100
+2026-03-16 22:09:32,284 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T22:09:32.284359300
+2026-03-16 22:09:32,284 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T22:09:32.284359300
+2026-03-16 22:09:38,288 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T22:09:38.288572700
+2026-03-16 22:09:38,288 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T22:09:38.288572700
+2026-03-16 22:09:44,292 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T22:09:44.292547900
+2026-03-16 22:09:44,292 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T22:09:44.292547900
+2026-03-16 22:09:50,277 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T22:09:50.277024600
+2026-03-16 22:09:50,277 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T22:09:50.277024600
+2026-03-16 22:09:54,299 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T22:09:54.299110500
+2026-03-16 22:09:56,287 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T22:09:56.287303800
+2026-03-16 22:10:00,291 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T22:10:00.291061700
+2026-03-16 22:10:02,291 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T22:10:02.291092700
+2026-03-16 22:10:06,287 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T22:10:06.287185100
+2026-03-16 22:10:08,288 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T22:10:08.288799600
+2026-03-16 22:10:12,286 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T22:10:12.286522900
+2026-03-16 22:10:14,299 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T22:10:14.299635
+2026-03-16 22:10:18,286 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T22:10:18.286761100
+2026-03-16 22:10:20,274 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T22:10:20.274574100
+2026-03-16 22:10:24,295 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T22:10:24.295977800
+2026-03-16 22:10:26,289 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T22:10:26.289010200
+2026-03-16 22:10:30,308 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T22:10:30.308466600
+2026-03-16 22:10:32,296 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T22:10:32.296037500
+2026-03-16 22:10:36,276 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T22:10:36.276171700
+2026-03-16 22:10:38,287 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T22:10:38.287886400
+2026-03-16 22:10:42,292 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T22:10:42.292665300
+2026-03-16 22:10:44,274 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T22:10:44.274744700
+2026-03-16 22:10:48,287 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T22:10:48.287193700
+2026-03-16 22:10:50,281 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T22:10:50.281901600
+2026-03-16 22:10:54,279 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T22:10:54.279628300
+2026-03-16 22:10:56,288 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T22:10:56.288301100
+2026-03-16 22:11:00,300 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T22:11:00.300226700
+2026-03-16 22:11:02,282 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T22:11:02.282590300
+2026-03-16 22:11:06,278 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T22:11:06.278841700
+2026-03-16 22:11:08,289 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T22:11:08.289212300
+2026-03-16 22:11:12,293 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T22:11:12.293455900
+2026-03-16 22:11:14,290 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T22:11:14.290841600
+2026-03-16 22:11:18,297 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T22:11:18.297238200
+2026-03-16 22:11:20,283 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T22:11:20.283347400
+2026-03-16 22:11:24,280 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T22:11:24.280507700
+2026-03-16 22:11:26,291 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T22:11:26.291100800
+2026-03-16 22:11:30,293 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T22:11:30.293458500
+2026-03-16 22:11:32,288 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T22:11:32.288080600
+2026-03-16 22:11:36,295 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T22:11:36.295707600
+2026-03-16 22:11:38,287 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T22:11:38.287066500
+2026-03-16 22:11:42,278 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T22:11:42.278391300
+2026-03-16 22:11:44,288 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T22:11:44.288468500
+2026-03-16 22:11:48,291 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T22:11:48.291729300
+2026-03-16 22:11:50,281 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T22:11:50.281151200
+2026-03-16 22:11:54,286 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T22:11:54.285640900
+2026-03-16 22:11:56,296 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T22:11:56.296465500
+2026-03-16 22:12:00,281 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T22:12:00.281724600
+2026-03-16 22:12:02,293 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T22:12:02.293432100
+2026-03-16 22:12:06,294 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T22:12:06.294662500
+2026-03-16 22:12:08,290 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T22:12:08.290799800
+2026-03-16 22:12:12,286 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T22:12:12.286330300
+2026-03-16 22:12:14,294 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T22:12:14.294897500
+2026-03-16 22:12:18,298 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T22:12:18.298056500
+2026-03-16 22:12:20,289 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T22:12:20.289891400
+2026-03-16 22:12:24,292 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T22:12:24.292130300
+2026-03-16 22:12:26,287 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T22:12:26.287511800
+2026-03-16 22:12:30,286 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T22:12:30.286108300
+2026-03-16 22:12:32,298 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T22:12:32.298269200
+2026-03-16 22:12:36,280 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T22:12:36.280338
+2026-03-16 22:12:38,308 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T22:12:38.308372900
+2026-03-16 22:12:42,292 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T22:12:42.292212200
+2026-03-16 22:12:44,287 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T22:12:44.287801500
+2026-03-16 22:12:48,288 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T22:12:48.288602500
+2026-03-16 22:12:50,300 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T22:12:50.300082300
+2026-03-16 22:12:54,288 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T22:12:54.288926700
+2026-03-16 22:12:55,061 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(22)-127.0.0.1] Application shutdown requested.
+2026-03-16 22:12:55,067 INFO o.s.b.t.GracefulShutdown [RMI TCP Connection(22)-127.0.0.1] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-16 22:12:55,068 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2026-03-16 22:12:55,071 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2026-03-16 22:12:55,073 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(22)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2026-03-16 22:12:55,076 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(22)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-16 22:12:55,080 INFO c.z.h.HikariDataSource [RMI TCP Connection(22)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2026-03-16 22:12:55,087 INFO c.z.h.HikariDataSource [RMI TCP Connection(22)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2026-03-16 22:12:56,286 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T22:12:56.286053700
+2026-03-16 22:12:56,292 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler [AsynchThread::3] Unexpected exception occurred invoking async method: public void com.global.book.service.PriceSchedule.computePrice() throws java.lang.InterruptedException
+org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction
+	at org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:319)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:532)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:405)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:134)
+	at net.javacrumbs.shedlock.provider.jdbctemplate.JdbcTemplateStorageAccessor.execute(JdbcTemplateStorageAccessor.java:121)
+	at net.javacrumbs.shedlock.provider.jdbctemplate.JdbcTemplateStorageAccessor.doUnlock(JdbcTemplateStorageAccessor.java:116)
+	at net.javacrumbs.shedlock.provider.jdbctemplate.JdbcTemplateStorageAccessor.unlock(JdbcTemplateStorageAccessor.java:106)
+	at net.javacrumbs.shedlock.support.StorageBasedLockProvider$StorageLock.doUnlock(StorageBasedLockProvider.java:112)
+	at net.javacrumbs.shedlock.core.AbstractSimpleLock.unlock(AbstractSimpleLock.java:30)
+	at net.javacrumbs.shedlock.core.DefaultLockingTaskExecutor.executeWithLock(DefaultLockingTaskExecutor.java:75)
+	at net.javacrumbs.shedlock.spring.aop.MethodProxyScheduledLockAdvisor$LockingInterceptor.invoke(MethodProxyScheduledLockAdvisor.java:84)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:112)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-1) has been closed.
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:95)
+	at org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:270)
+	... 16 common frames omitted
+2026-03-16 22:13:12,147 INFO o.s.b.StartupInfoLogger [main] Starting DataJpaBooksProjectApplication using Java 21.0.8 with PID 17428 (D:\BackEnd RoadMap\new workspace\data-jpa-books-project\target\classes started by HP in D:\BackEnd RoadMap\new workspace\data-jpa-books-project)
+2026-03-16 22:13:12,150 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-16 22:13:12,151 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2026-03-16 22:13:12,368 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-16 22:13:12,901 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-16 22:13:12,972 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 61 ms. Found 2 JPA repository interfaces.
+2026-03-16 22:13:13,609 INFO o.s.b.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2026-03-16 22:13:13,622 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-16 22:13:13,624 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2026-03-16 22:13:13,625 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-16 22:13:13,679 INFO o.s.b.w.c.s.WebApplicationContextInitializer [main] Root WebApplicationContext: initialization completed in 1477 ms
+2026-03-16 22:13:13,849 INFO o.h.j.i.u.LogHelper [main] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-16 22:13:13,900 INFO o.h.Version [main] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-16 22:13:14,336 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-16 22:13:14,370 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2026-03-16 22:13:14,704 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c579b5b
+2026-03-16 22:13:14,706 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2026-03-16 22:13:14,775 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-16 22:13:14,801 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [main] HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/book?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: book/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-16 22:13:15,925 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-16 22:13:16,007 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-16 22:13:16,108 INFO o.s.d.j.r.q.QueryEnhancerFactories [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-16 22:13:16,983 WARN o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-16 22:13:17,370 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2026-03-16 22:13:17,390 INFO o.s.b.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
+2026-03-16 22:13:17,399 INFO o.s.b.StartupInfoLogger [main] Started DataJpaBooksProjectApplication in 5.643 seconds (process running for 6.584)
+2026-03-16 22:13:21,464 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T22:13:21.464824800
+2026-03-16 22:13:27,421 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T22:13:27.421290600
+2026-03-16 22:13:33,427 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T22:13:33.427714400
+2026-03-16 22:13:39,424 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T22:13:39.423991200
+2026-03-16 22:13:45,422 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T22:13:45.422901600
+2026-03-16 22:13:51,432 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T22:13:51.432550900
+2026-03-16 22:13:57,428 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T22:13:57.428677300
+2026-03-16 22:14:03,430 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T22:14:03.430592700
+2026-03-16 22:14:09,427 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T22:14:09.427022700
+2026-03-16 22:14:15,430 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T22:14:15.430420900
+2026-03-16 22:14:21,414 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T22:14:21.414734500
+2026-03-16 22:14:27,412 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T22:14:27.412065400
+2026-03-16 22:14:33,427 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T22:14:33.427459300
+2026-03-16 22:14:39,426 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T22:14:39.426875700
+2026-03-16 22:14:45,432 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T22:14:45.432109
+2026-03-16 22:14:51,435 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T22:14:51.435311800
+2026-03-16 22:14:57,427 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T22:14:57.427149500
+2026-03-16 22:15:03,434 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T22:15:03.434267700
+2026-03-16 22:15:09,418 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T22:15:09.418561100
+2026-03-16 22:15:15,424 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T22:15:15.424041300
+2026-03-16 22:15:21,426 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T22:15:21.426208
+2026-03-16 22:15:27,424 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T22:15:27.424472700
+2026-03-16 22:15:30,032 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(13)-127.0.0.1] Application shutdown requested.
+2026-03-16 22:15:30,036 INFO o.s.b.t.GracefulShutdown [RMI TCP Connection(13)-127.0.0.1] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-16 22:15:30,037 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2026-03-16 22:15:30,040 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2026-03-16 22:15:30,041 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(13)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2026-03-16 22:15:30,046 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(13)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-16 22:15:30,049 INFO c.z.h.HikariDataSource [RMI TCP Connection(13)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2026-03-16 22:15:30,055 INFO c.z.h.HikariDataSource [RMI TCP Connection(13)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2026-03-16 22:15:33,431 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T22:15:33.431094600
+2026-03-16 22:15:33,436 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler [AsynchThread::1] Unexpected exception occurred invoking async method: public void com.global.book.service.PriceSchedule.computeDiscount() throws java.lang.InterruptedException
+org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction
+	at org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:319)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:532)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:405)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:134)
+	at net.javacrumbs.shedlock.provider.jdbctemplate.JdbcTemplateStorageAccessor.execute(JdbcTemplateStorageAccessor.java:121)
+	at net.javacrumbs.shedlock.provider.jdbctemplate.JdbcTemplateStorageAccessor.doUnlock(JdbcTemplateStorageAccessor.java:116)
+	at net.javacrumbs.shedlock.provider.jdbctemplate.JdbcTemplateStorageAccessor.unlock(JdbcTemplateStorageAccessor.java:106)
+	at net.javacrumbs.shedlock.support.StorageBasedLockProvider$StorageLock.doUnlock(StorageBasedLockProvider.java:112)
+	at net.javacrumbs.shedlock.core.AbstractSimpleLock.unlock(AbstractSimpleLock.java:30)
+	at net.javacrumbs.shedlock.core.DefaultLockingTaskExecutor.executeWithLock(DefaultLockingTaskExecutor.java:75)
+	at net.javacrumbs.shedlock.spring.aop.MethodProxyScheduledLockAdvisor$LockingInterceptor.invoke(MethodProxyScheduledLockAdvisor.java:84)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:112)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-1) has been closed.
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:95)
+	at org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:270)
+	... 16 common frames omitted
+2026-03-16 22:15:47,088 INFO o.s.b.StartupInfoLogger [main] Starting DataJpaBooksProjectApplication using Java 21.0.8 with PID 17612 (D:\BackEnd RoadMap\new workspace\data-jpa-books-project\target\classes started by HP in D:\BackEnd RoadMap\new workspace\data-jpa-books-project)
+2026-03-16 22:15:47,091 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-16 22:15:47,092 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2026-03-16 22:15:47,367 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-16 22:15:47,864 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-16 22:15:47,924 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 51 ms. Found 2 JPA repository interfaces.
+2026-03-16 22:15:48,571 INFO o.s.b.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2026-03-16 22:15:48,584 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-16 22:15:48,585 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2026-03-16 22:15:48,586 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-16 22:15:48,645 INFO o.s.b.w.c.s.WebApplicationContextInitializer [main] Root WebApplicationContext: initialization completed in 1461 ms
+2026-03-16 22:15:48,811 INFO o.h.j.i.u.LogHelper [main] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-16 22:15:48,862 INFO o.h.Version [main] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-16 22:15:49,294 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-16 22:15:49,328 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2026-03-16 22:15:49,668 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@fabfc79
+2026-03-16 22:15:49,670 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2026-03-16 22:15:49,728 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-16 22:15:49,749 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [main] HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/book?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: book/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-16 22:15:50,874 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-16 22:15:50,958 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-16 22:15:51,055 INFO o.s.d.j.r.q.QueryEnhancerFactories [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-16 22:15:51,928 WARN o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-16 22:15:52,324 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2026-03-16 22:15:52,343 INFO o.s.b.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
+2026-03-16 22:15:52,353 INFO o.s.b.StartupInfoLogger [main] Started DataJpaBooksProjectApplication in 5.647 seconds (process running for 6.604)
+2026-03-16 22:22:56,374 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T22:22:56.374063700
+2026-03-16 22:23:02,366 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T22:23:02.366616300
+2026-03-16 22:23:08,363 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T22:23:08.363532200
+2026-03-16 22:23:14,365 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T22:23:14.365665700
+2026-03-16 22:23:20,363 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T22:23:20.363748600
+2026-03-16 22:23:26,369 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T22:23:26.369522500
+2026-03-16 22:23:32,364 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T22:23:32.364607500
+2026-03-16 22:23:38,369 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T22:23:38.369929400
+2026-03-16 22:23:44,362 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T22:23:44.362589800
+2026-03-16 22:23:50,359 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T22:23:50.359109100
+2026-03-16 22:23:56,367 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T22:23:56.367006200
+2026-03-16 22:24:02,356 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T22:24:02.356400
+2026-03-16 22:24:08,360 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T22:24:08.360567100
+2026-03-16 22:24:14,367 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T22:24:14.367102700
+2026-03-16 22:24:20,368 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T22:24:20.368026600
+2026-03-16 22:24:26,366 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T22:24:26.366542700
+2026-03-16 22:24:32,362 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T22:24:32.362107
+2026-03-16 22:24:38,366 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T22:24:38.366908900
+2026-03-16 22:24:44,367 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T22:24:44.367104900
+2026-03-16 22:24:50,362 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T22:24:50.362568400
+2026-03-16 22:24:56,364 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T22:24:56.364770400
+2026-03-16 22:25:02,359 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T22:25:02.359553300
+2026-03-16 22:25:08,362 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T22:25:08.362816900
+2026-03-16 22:25:14,365 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T22:25:14.365362
+2026-03-16 22:25:20,366 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T22:25:20.366778100
+2026-03-16 22:25:26,362 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T22:25:26.362783100
+2026-03-16 22:25:32,366 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T22:25:32.366304700
+2026-03-16 22:25:34,362 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T22:25:34.362738200
+2026-03-16 22:25:38,364 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T22:25:38.364214700
+2026-03-16 22:25:40,362 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T22:25:40.362928
+2026-03-16 22:25:44,361 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T22:25:44.361160400
+2026-03-16 22:25:46,365 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T22:25:46.365888600
+2026-03-16 22:25:50,358 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T22:25:50.358916800
+2026-03-16 22:25:52,368 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T22:25:52.368458800
+2026-03-16 22:25:56,362 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T22:25:56.362312900
+2026-03-16 22:25:58,375 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T22:25:58.375638800
+2026-03-16 22:26:02,376 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T22:26:02.376381600
+2026-03-16 22:26:04,383 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute discount 2026-03-16T22:26:04.383990500
+2026-03-16 22:26:08,364 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute price 2026-03-16T22:26:08.364510800
+2026-03-16 22:26:10,375 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T22:26:10.375710100
+2026-03-16 22:26:14,385 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute price 2026-03-16T22:26:14.385147900
+2026-03-16 22:26:16,382 INFO c.g.b.s.PriceSchedule [AsynchThread::2] compute discount 2026-03-16T22:26:16.382271800
+2026-03-16 22:26:20,386 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute price 2026-03-16T22:26:20.386784500
+2026-03-16 22:26:22,396 INFO c.g.b.s.PriceSchedule [AsynchThread::1] compute discount 2026-03-16T22:26:22.396783
+2026-03-16 22:26:24,586 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(21)-127.0.0.1] Application shutdown requested.
+2026-03-16 22:26:24,593 INFO o.s.b.t.GracefulShutdown [RMI TCP Connection(21)-127.0.0.1] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-16 22:26:24,595 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2026-03-16 22:26:24,600 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2026-03-16 22:26:24,601 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(21)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2026-03-16 22:26:24,606 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(21)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-16 22:26:24,608 INFO c.z.h.HikariDataSource [RMI TCP Connection(21)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2026-03-16 22:26:24,614 INFO c.z.h.HikariDataSource [RMI TCP Connection(21)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2026-03-16 22:26:26,385 INFO c.g.b.s.PriceSchedule [AsynchThread::4] compute price 2026-03-16T22:26:26.385833900
+2026-03-16 22:26:26,392 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler [AsynchThread::4] Unexpected exception occurred invoking async method: public void com.global.book.service.PriceSchedule.computePrice() throws java.lang.InterruptedException
+org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction
+	at org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:319)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:532)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:405)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:134)
+	at net.javacrumbs.shedlock.provider.jdbctemplate.JdbcTemplateStorageAccessor.execute(JdbcTemplateStorageAccessor.java:121)
+	at net.javacrumbs.shedlock.provider.jdbctemplate.JdbcTemplateStorageAccessor.doUnlock(JdbcTemplateStorageAccessor.java:116)
+	at net.javacrumbs.shedlock.provider.jdbctemplate.JdbcTemplateStorageAccessor.unlock(JdbcTemplateStorageAccessor.java:106)
+	at net.javacrumbs.shedlock.support.StorageBasedLockProvider$StorageLock.doUnlock(StorageBasedLockProvider.java:112)
+	at net.javacrumbs.shedlock.core.AbstractSimpleLock.unlock(AbstractSimpleLock.java:30)
+	at net.javacrumbs.shedlock.core.DefaultLockingTaskExecutor.executeWithLock(DefaultLockingTaskExecutor.java:75)
+	at net.javacrumbs.shedlock.spring.aop.MethodProxyScheduledLockAdvisor$LockingInterceptor.invoke(MethodProxyScheduledLockAdvisor.java:84)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:112)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-1) has been closed.
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:95)
+	at org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:270)
+	... 16 common frames omitted
+2026-03-16 22:26:28,370 INFO c.g.b.s.PriceSchedule [AsynchThread::3] compute discount 2026-03-16T22:26:28.370127500
+2026-03-16 22:26:28,372 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler [AsynchThread::3] Unexpected exception occurred invoking async method: public void com.global.book.service.PriceSchedule.computeDiscount() throws java.lang.InterruptedException
+org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction
+	at org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:319)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:532)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:405)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:134)
+	at net.javacrumbs.shedlock.provider.jdbctemplate.JdbcTemplateStorageAccessor.execute(JdbcTemplateStorageAccessor.java:121)
+	at net.javacrumbs.shedlock.provider.jdbctemplate.JdbcTemplateStorageAccessor.doUnlock(JdbcTemplateStorageAccessor.java:116)
+	at net.javacrumbs.shedlock.provider.jdbctemplate.JdbcTemplateStorageAccessor.unlock(JdbcTemplateStorageAccessor.java:106)
+	at net.javacrumbs.shedlock.support.StorageBasedLockProvider$StorageLock.doUnlock(StorageBasedLockProvider.java:112)
+	at net.javacrumbs.shedlock.core.AbstractSimpleLock.unlock(AbstractSimpleLock.java:30)
+	at net.javacrumbs.shedlock.core.DefaultLockingTaskExecutor.executeWithLock(DefaultLockingTaskExecutor.java:75)
+	at net.javacrumbs.shedlock.spring.aop.MethodProxyScheduledLockAdvisor$LockingInterceptor.invoke(MethodProxyScheduledLockAdvisor.java:84)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:112)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-1) has been closed.
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:95)
+	at org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:270)
+	... 16 common frames omitted
+2026-03-16 22:26:41,571 INFO o.s.b.StartupInfoLogger [main] Starting DataJpaBooksProjectApplication using Java 21.0.8 with PID 16156 (D:\BackEnd RoadMap\new workspace\data-jpa-books-project\target\classes started by HP in D:\BackEnd RoadMap\new workspace\data-jpa-books-project)
+2026-03-16 22:26:41,573 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-16 22:26:41,574 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2026-03-16 22:26:41,783 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-16 22:26:42,302 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-16 22:26:42,373 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 62 ms. Found 2 JPA repository interfaces.
+2026-03-16 22:26:43,000 INFO o.s.b.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2026-03-16 22:26:43,014 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-16 22:26:43,017 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2026-03-16 22:26:43,017 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-16 22:26:43,071 INFO o.s.b.w.c.s.WebApplicationContextInitializer [main] Root WebApplicationContext: initialization completed in 1443 ms
+2026-03-16 22:26:43,240 INFO o.h.j.i.u.LogHelper [main] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-16 22:26:43,293 INFO o.h.Version [main] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-16 22:26:43,731 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-16 22:26:43,764 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2026-03-16 22:26:44,102 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@18c60d81
+2026-03-16 22:26:44,104 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2026-03-16 22:26:44,155 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-16 22:26:44,174 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [main] HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/book?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: book/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-16 22:26:45,288 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-16 22:26:45,373 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-16 22:26:45,473 INFO o.s.d.j.r.q.QueryEnhancerFactories [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-16 22:26:46,342 WARN o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-16 22:26:46,729 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2026-03-16 22:26:46,747 INFO o.s.b.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
+2026-03-16 22:26:46,756 INFO o.s.b.StartupInfoLogger [main] Started DataJpaBooksProjectApplication in 5.559 seconds (process running for 6.439)
+2026-03-16 22:29:36,635 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(13)-127.0.0.1] Application shutdown requested.
+2026-03-16 22:29:36,642 INFO o.s.b.t.GracefulShutdown [RMI TCP Connection(13)-127.0.0.1] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-16 22:29:36,643 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2026-03-16 22:29:36,649 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2026-03-16 22:29:36,651 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(13)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2026-03-16 22:29:36,656 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(13)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-16 22:29:36,660 INFO c.z.h.HikariDataSource [RMI TCP Connection(13)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2026-03-16 22:29:36,669 INFO c.z.h.HikariDataSource [RMI TCP Connection(13)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2026-03-16 22:29:53,785 INFO o.s.b.StartupInfoLogger [main] Starting DataJpaBooksProjectApplication using Java 21.0.8 with PID 17020 (D:\BackEnd RoadMap\new workspace\data-jpa-books-project\target\classes started by HP in D:\BackEnd RoadMap\new workspace\data-jpa-books-project)
+2026-03-16 22:29:53,786 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-16 22:29:53,787 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2026-03-16 22:29:54,089 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-16 22:29:54,654 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-16 22:29:54,713 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 51 ms. Found 2 JPA repository interfaces.
+2026-03-16 22:29:55,350 INFO o.s.b.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2026-03-16 22:29:55,365 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-16 22:29:55,367 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2026-03-16 22:29:55,368 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-16 22:29:55,432 INFO o.s.b.w.c.s.WebApplicationContextInitializer [main] Root WebApplicationContext: initialization completed in 1592 ms
+2026-03-16 22:29:55,609 INFO o.h.j.i.u.LogHelper [main] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-16 22:29:55,658 INFO o.h.Version [main] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-16 22:29:56,088 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-16 22:29:56,120 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2026-03-16 22:29:56,473 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@79fc4e99
+2026-03-16 22:29:56,475 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2026-03-16 22:29:56,532 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-16 22:29:56,552 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [main] HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/book?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: book/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-16 22:29:57,734 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-16 22:29:57,814 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-16 22:29:57,911 INFO o.s.d.j.r.q.QueryEnhancerFactories [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-16 22:29:58,785 WARN o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-16 22:29:59,162 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2026-03-16 22:29:59,180 INFO o.s.b.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
+2026-03-16 22:29:59,187 INFO o.s.b.StartupInfoLogger [main] Started DataJpaBooksProjectApplication in 5.811 seconds (process running for 6.723)
+2026-03-16 22:48:52,626 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(28)-127.0.0.1] Application shutdown requested.
+2026-03-16 22:48:52,632 INFO o.s.b.t.GracefulShutdown [RMI TCP Connection(28)-127.0.0.1] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-16 22:48:52,633 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2026-03-16 22:48:52,637 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2026-03-16 22:48:52,638 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(28)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2026-03-16 22:48:52,645 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(28)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-16 22:48:52,648 INFO c.z.h.HikariDataSource [RMI TCP Connection(28)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2026-03-16 22:48:52,655 INFO c.z.h.HikariDataSource [RMI TCP Connection(28)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2026-03-16 22:48:55,449 INFO o.s.b.StartupInfoLogger [main] Starting DataJpaBooksProjectApplication using Java 21.0.8 with PID 18020 (D:\BackEnd RoadMap\new workspace\data-jpa-books-project\target\classes started by HP in D:\BackEnd RoadMap\new workspace\data-jpa-books-project)
+2026-03-16 22:48:55,452 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-16 22:48:55,453 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2026-03-16 22:48:55,681 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-16 22:48:56,231 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-16 22:48:56,300 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 62 ms. Found 2 JPA repository interfaces.
+2026-03-16 22:48:56,941 INFO o.s.b.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2026-03-16 22:48:56,956 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-16 22:48:56,959 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2026-03-16 22:48:56,959 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-16 22:48:57,031 INFO o.s.b.w.c.s.WebApplicationContextInitializer [main] Root WebApplicationContext: initialization completed in 1527 ms
+2026-03-16 22:48:57,257 INFO o.h.j.i.u.LogHelper [main] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-16 22:48:57,307 INFO o.h.Version [main] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-16 22:48:57,750 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-16 22:48:57,784 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2026-03-16 22:48:58,138 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@103e9972
+2026-03-16 22:48:58,141 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2026-03-16 22:48:58,197 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-16 22:48:58,220 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [main] HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/book?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: book/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-16 22:48:59,366 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-16 22:48:59,451 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-16 22:48:59,550 INFO o.s.d.j.r.q.QueryEnhancerFactories [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-16 22:49:00,432 WARN o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-16 22:49:00,809 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2026-03-16 22:49:00,827 INFO o.s.b.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
+2026-03-16 22:49:00,834 INFO o.s.b.StartupInfoLogger [main] Started DataJpaBooksProjectApplication in 5.763 seconds (process running for 6.682)
+2026-03-16 23:13:43,849 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1:housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m15s403ms452µs).
+2026-03-16 23:16:21,146 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(30)-127.0.0.1] Application shutdown requested.
+2026-03-16 23:16:21,153 INFO o.s.b.t.GracefulShutdown [RMI TCP Connection(30)-127.0.0.1] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-16 23:16:21,155 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2026-03-16 23:16:21,159 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2026-03-16 23:16:21,160 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(30)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2026-03-16 23:16:21,164 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(30)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-16 23:16:21,166 INFO c.z.h.HikariDataSource [RMI TCP Connection(30)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2026-03-16 23:16:21,172 INFO c.z.h.HikariDataSource [RMI TCP Connection(30)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2026-03-16 23:16:23,677 INFO o.s.b.StartupInfoLogger [main] Starting DataJpaBooksProjectApplication using Java 21.0.8 with PID 12028 (D:\BackEnd RoadMap\new workspace\data-jpa-books-project\target\classes started by HP in D:\BackEnd RoadMap\new workspace\data-jpa-books-project)
+2026-03-16 23:16:23,680 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-16 23:16:23,681 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2026-03-16 23:16:23,882 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-16 23:16:24,334 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-16 23:16:24,401 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 49 ms. Found 2 JPA repository interfaces.
+2026-03-16 23:16:25,016 INFO o.s.b.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2026-03-16 23:16:25,030 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-16 23:16:25,032 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2026-03-16 23:16:25,032 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-16 23:16:25,087 INFO o.s.b.w.c.s.WebApplicationContextInitializer [main] Root WebApplicationContext: initialization completed in 1360 ms
+2026-03-16 23:16:25,259 INFO o.h.j.i.u.LogHelper [main] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-16 23:16:25,317 INFO o.h.Version [main] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-16 23:16:25,762 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-16 23:16:25,794 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2026-03-16 23:16:26,135 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@36349e29
+2026-03-16 23:16:26,138 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2026-03-16 23:16:26,195 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-16 23:16:26,214 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [main] HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/book?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: book/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-16 23:16:27,316 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-16 23:16:27,330 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-16 23:16:27,424 INFO o.s.d.j.r.q.QueryEnhancerFactories [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-16 23:16:28,346 WARN o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-16 23:16:28,732 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2026-03-16 23:16:28,749 INFO o.s.b.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
+2026-03-16 23:16:28,756 INFO o.s.b.StartupInfoLogger [main] Started DataJpaBooksProjectApplication in 5.446 seconds (process running for 6.478)
+2026-03-16 23:30:28,415 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(22)-127.0.0.1] Application shutdown requested.
+2026-03-16 23:30:28,424 INFO o.s.b.t.GracefulShutdown [RMI TCP Connection(22)-127.0.0.1] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-16 23:30:28,426 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2026-03-16 23:30:28,430 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2026-03-16 23:30:28,431 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(22)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2026-03-16 23:30:28,437 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(22)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-16 23:30:28,440 INFO c.z.h.HikariDataSource [RMI TCP Connection(22)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2026-03-16 23:30:28,446 INFO c.z.h.HikariDataSource [RMI TCP Connection(22)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2026-03-16 23:30:30,747 INFO o.s.b.StartupInfoLogger [main] Starting DataJpaBooksProjectApplication using Java 21.0.8 with PID 17240 (D:\BackEnd RoadMap\new workspace\data-jpa-books-project\target\classes started by HP in D:\BackEnd RoadMap\new workspace\data-jpa-books-project)
+2026-03-16 23:30:30,750 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-16 23:30:30,751 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2026-03-16 23:30:30,946 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-16 23:30:31,436 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-16 23:30:31,493 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 48 ms. Found 2 JPA repository interfaces.
+2026-03-16 23:30:32,112 INFO o.s.b.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2026-03-16 23:30:32,125 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-16 23:30:32,128 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2026-03-16 23:30:32,128 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-16 23:30:32,184 INFO o.s.b.w.c.s.WebApplicationContextInitializer [main] Root WebApplicationContext: initialization completed in 1391 ms
+2026-03-16 23:30:32,348 INFO o.h.j.i.u.LogHelper [main] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-16 23:30:32,399 INFO o.h.Version [main] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-16 23:30:32,831 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-16 23:30:32,862 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2026-03-16 23:30:33,194 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@602aeb87
+2026-03-16 23:30:33,196 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2026-03-16 23:30:33,251 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-16 23:30:33,269 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [main] HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/book?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: book/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-16 23:30:34,387 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-16 23:30:34,402 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-16 23:30:34,496 INFO o.s.d.j.r.q.QueryEnhancerFactories [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-16 23:30:35,381 WARN o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-16 23:30:35,767 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2026-03-16 23:30:35,785 INFO o.s.b.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
+2026-03-16 23:30:35,791 INFO o.s.b.StartupInfoLogger [main] Started DataJpaBooksProjectApplication in 5.388 seconds (process running for 6.236)
+2026-03-16 23:31:07,691 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(10)-127.0.0.1] Application shutdown requested.
+2026-03-16 23:31:07,698 INFO o.s.b.t.GracefulShutdown [RMI TCP Connection(10)-127.0.0.1] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-16 23:31:07,700 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2026-03-16 23:31:07,706 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2026-03-16 23:31:07,707 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(10)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2026-03-16 23:31:07,713 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(10)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-16 23:31:07,716 INFO c.z.h.HikariDataSource [RMI TCP Connection(10)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2026-03-16 23:31:07,723 INFO c.z.h.HikariDataSource [RMI TCP Connection(10)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2026-03-16 23:31:10,028 INFO o.s.b.StartupInfoLogger [main] Starting DataJpaBooksProjectApplication using Java 21.0.8 with PID 18880 (D:\BackEnd RoadMap\new workspace\data-jpa-books-project\target\classes started by HP in D:\BackEnd RoadMap\new workspace\data-jpa-books-project)
+2026-03-16 23:31:10,031 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-16 23:31:10,032 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2026-03-16 23:31:10,229 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-16 23:31:10,683 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-16 23:31:10,739 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 47 ms. Found 2 JPA repository interfaces.
+2026-03-16 23:31:11,360 INFO o.s.b.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2026-03-16 23:31:11,375 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-16 23:31:11,377 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2026-03-16 23:31:11,377 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-16 23:31:11,434 INFO o.s.b.w.c.s.WebApplicationContextInitializer [main] Root WebApplicationContext: initialization completed in 1356 ms
+2026-03-16 23:31:11,606 INFO o.h.j.i.u.LogHelper [main] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-16 23:31:11,657 INFO o.h.Version [main] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-16 23:31:12,122 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-16 23:31:12,158 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2026-03-16 23:31:12,513 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c7f804c
+2026-03-16 23:31:12,515 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2026-03-16 23:31:12,567 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-16 23:31:12,585 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [main] HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/book?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: book/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-16 23:31:13,721 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-16 23:31:13,735 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-16 23:31:13,826 INFO o.s.d.j.r.q.QueryEnhancerFactories [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-16 23:31:14,777 WARN o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-16 23:31:15,152 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2026-03-16 23:31:15,169 INFO o.s.b.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
+2026-03-16 23:31:15,175 INFO o.s.b.StartupInfoLogger [main] Started DataJpaBooksProjectApplication in 5.484 seconds (process running for 6.313)
