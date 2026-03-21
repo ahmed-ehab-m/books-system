@@ -44,7 +44,14 @@ public class Author extends BaseEntity<Long>{
 	@Formula("(select count(*) from books book where book.author_id = id)")
 	private Long bookCount;
 	
+	private String imagePath;
 	
+	public String getImagePath() {
+		return imagePath;
+	}
+	public void setImagePath(String imagePath) {
+		this.imagePath = imagePath;
+	}
 	public String getEmail() {
 		return email;
 	}
