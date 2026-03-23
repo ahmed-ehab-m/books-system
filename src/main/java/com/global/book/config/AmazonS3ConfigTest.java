@@ -1,5 +1,4 @@
-package com.global.book.config; // غير الباكدج حسب مشروعك
-
+package com.global.book.config;
 import com.amazonaws.auth.AWSStaticCredentialsProvider;
 import com.amazonaws.auth.BasicAWSCredentials;
 import com.amazonaws.services.s3.AmazonS3;

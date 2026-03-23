@@ -10,6 +10,7 @@ import com.fasterxml.jackson.annotation.JsonManagedReference;
 import com.global.book.base.BaseEntity;
 import com.global.book.validator.IpAddress;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.Entity;
 
 import jakarta.persistence.OneToMany;
@@ -20,10 +21,12 @@ import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Pattern;
 
 
+@Schema(name = "Book Entity")
 @Entity
 @Table(name = "authors")
 //@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class Author extends BaseEntity<Long>{
+	
 	
 	@NotBlank(message = "Should be enter author name")
 	private String name; 
