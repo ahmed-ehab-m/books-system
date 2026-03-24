@@ -28,6 +28,8 @@ public class AuthorService extends BaseService<Author, Long>{
 	
 	@Override
 	public Author insert(Author entity) {
+		
+		
 		if(!entity.getEmail().isEmpty() && entity.getEmail() !=null)
 		{
 			CompletableFuture<Author> author=findByEmail(entity.getEmail());
