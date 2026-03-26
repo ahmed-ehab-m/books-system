@@ -39,16 +39,24 @@ public class AuthorService extends BaseService<Author, Long>{
 	@Override
 	public Author insert(Author entity) {
 		
+		log.info(entity.getName());
+		log.info(entity.getId());
+		log.info(entity.getEmail());
+		log.info(entity.getBookCount());
+		log.info(entity.getImagePath());
+		log.info(entity.getIpAddress());
 		
-		if(!entity.getEmail().isEmpty() && entity.getEmail() !=null)
+		if( entity.getEmail() !=null && !entity.getEmail().isEmpty())
 		{
-			CompletableFuture<Author> author=findByEmail(entity.getEmail());
 			
+			Optional<Author> existingAuthor = findByEmail(entity.getEmail());			
 			log.info("author name is : {}  and email is : {}",entity.getName(), entity.getEmail());
 			System.out.println("email is : "+ entity.getEmail());
-			if(author.isDone())
+			if(existingAuthor.isPresent())
+			{
 				log.error("this email already found with another author");
 				throw new DuplicateRecordException("this email already found with another author");
+			}
 		}
 		return super.insert(entity);
 	}
@@ -67,9 +75,8 @@ public class AuthorService extends BaseService<Author, Long>{
 	}
 	
 	@Async(value="threadPoolTaskExecutor")
-	public CompletableFuture<Author> findByEmail(String email)
-	{
-		return CompletableFuture.completedFuture(authorRepo.findByEmail(email).get());
+	public Optional<Author> findByEmail(String email) {
+	    return authorRepo.findByEmail(email);
 	}
 
 }

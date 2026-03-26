@@ -3,6 +3,7 @@ package com.global.book.dto;
 
 import java.util.List;
 
+import com.global.book.base.BaseDto;
 import com.global.book.entity.Author;
 
 import io.micrometer.common.lang.NonNull;
@@ -27,10 +28,8 @@ import lombok.Setter;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-public class BookDto {
+public class BookDto extends BaseDto<Long> {
 	
-
-	private Long id;
 	@NotBlank
 	private String name;
 	@Min(value=5)

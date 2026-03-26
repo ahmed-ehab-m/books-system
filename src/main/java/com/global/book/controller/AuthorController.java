@@ -16,6 +16,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.amazonaws.services.s3.AmazonS3;
+import com.global.book.DataJpaBooksProjectApplication;
+import com.global.book.dto.AuthorDto;
 import com.global.book.entity.Author;
 import com.global.book.entity.AuthorSearch;
 import com.global.book.service.AuthorService;
@@ -33,19 +35,33 @@ import lombok.extern.log4j.Log4j2;
 @RequiredArgsConstructor // instead of autowired (constructor injection)
 
 public class AuthorController {
+
+    private final DataJpaBooksProjectApplication dataJpaBooksProjectApplication;
 	private final AuthorService authorService;
-	
-	
 	@GetMapping("/{id}")
-	public ResponseEntity<?> findById(@PathVariable @Min(10) @Max(200) Long id)
+	public ResponseEntity<?> findById(@PathVariable  Long id)
 	{
-		return ResponseEntity.ok( authorService.findById(id));
+		Author author= authorService.findById(id);
+		AuthorDto authorDto =new AuthorDto();
+		authorDto.setId(author.getId());
+		authorDto.setName(author.getName());
+		authorDto.setImagePath(author.getImagePath());
+		authorDto.setEmail(author.getEmail());
+		authorDto.setBookCount(author.getBookCount());
+		return ResponseEntity.ok(authorDto);
 	}
 	
-	@GetMapping("/{email}")
+	@GetMapping("/email/{email}")
 	public ResponseEntity<?> findByEmail(@PathVariable String email)
 	{
-		return ResponseEntity.ok( authorService.findByEmail(email));
+		Author author= authorService.findByEmail(email).get();
+		AuthorDto authorDto =new AuthorDto();
+		authorDto.setId(author.getId());
+		authorDto.setName(author.getName());
+		authorDto.setImagePath(author.getImagePath());
+		authorDto.setEmail(author.getEmail());
+		authorDto.setBookCount(author.getBookCount());
+		return ResponseEntity.ok(authorDto);
 	}
 	
 	@GetMapping("")
@@ -55,17 +71,35 @@ public class AuthorController {
 	}
 	
 	@PostMapping("")
-	public ResponseEntity<?> insert(@Valid @RequestBody Author author)
+	public ResponseEntity<?> insert(@Valid @RequestBody AuthorDto authorDto)
 	{
+		Author authorEntity= new Author();
 		
-		return ResponseEntity.ok(authorService.insert(author));
+//		authorEntity.setName(authorDto.getName());
+		authorEntity.setId(null);
+		authorEntity.setName(authorDto.getName());
+		authorEntity.setImagePath(authorDto.getImagePath());
+		authorEntity.setEmail(authorDto.getEmail());
+		authorEntity.setBookCount(authorDto.getBookCount());
+		authorService.insert(authorEntity);
+		return ResponseEntity.ok(authorDto);
 		
 	}
 	
 	@PutMapping("")
-	public ResponseEntity<?> update(@Valid  @RequestBody Author author)
+	public ResponseEntity<?> update(@Valid  @RequestBody AuthorDto authorDto)
 	{
-		return ResponseEntity.ok(authorService.update(author));
+Author authorEntity= new Author();
+		
+//		authorEntity.setName(authorDto.getName());
+		authorEntity.setId(authorDto.getId());
+		authorEntity.setName(authorDto.getName());
+		authorEntity.setImagePath(authorDto.getImagePath());
+		authorEntity.setEmail(authorDto.getEmail());
+		authorEntity.setBookCount(authorDto.getBookCount());
+		authorService.update(authorEntity);
+		return ResponseEntity.ok(authorDto);
+		
 	}
 	
 	@DeleteMapping("/{id}")
