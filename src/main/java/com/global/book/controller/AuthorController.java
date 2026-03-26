@@ -1,6 +1,8 @@
 package com.global.book.controller;
 
 
+import java.util.concurrent.Executor;
+
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -13,23 +15,25 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.amazonaws.services.s3.AmazonS3;
 import com.global.book.entity.Author;
 import com.global.book.entity.AuthorSearch;
 import com.global.book.service.AuthorService;
+import com.global.book.service.FileUploadService;
 
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;
+import lombok.RequiredArgsConstructor;
+import lombok.extern.log4j.Log4j2;
 
 @Validated
 @RestController
 @RequestMapping("/author")
+@RequiredArgsConstructor // instead of autowired (constructor injection)
+
 public class AuthorController {
-	private AuthorService authorService;
-	public AuthorController(AuthorService authorService) {
-		super();
-		this.authorService = authorService;
-	}
+	private final AuthorService authorService;
 	
 	
 	@GetMapping("/{id}")

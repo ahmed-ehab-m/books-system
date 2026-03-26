@@ -18,13 +18,23 @@ import com.global.book.error.DuplicateRecordException;
 import com.global.book.repository.AuthorRepo;
 import com.global.book.repository.AuthorSpec;
 
+import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
+import lombok.extern.log4j.Log4j2;
+
 @Service
+
+//required not allargconstructor because all arg will include all variables even if not final 
+// mean that will include Logger and this cause an error 
+// required => include only final or notnull vars
+@RequiredArgsConstructor // instead of autowired (constructor injection)
+
+@Log4j2 // give me a log variable to use it in code
+
 public class AuthorService extends BaseService<Author, Long>{
 
-	@Autowired
-	private AuthorRepo authorRepo;
+	private final  AuthorRepo authorRepo;
 	
-	Logger log=LoggerFactory.getLogger(AuthorService.class);
 	
 	@Override
 	public Author insert(Author entity) {

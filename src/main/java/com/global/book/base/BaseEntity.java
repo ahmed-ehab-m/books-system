@@ -13,10 +13,14 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.MappedSuperclass;
+import lombok.Getter;
+import lombok.Setter;
 
 
 @EntityListeners({AuditingEntityListener.class})
 @MappedSuperclass
+@Setter
+@Getter
 public abstract class BaseEntity<ID> {
 	
 	@Id
@@ -25,14 +29,6 @@ public abstract class BaseEntity<ID> {
 	
 	private String statusCode;
 	
-	public String getStatusCode() {
-		return statusCode;
-	} 
-
-	public void setStatusCode(String statusCode) {
-		this.statusCode = statusCode;
-	}
-
 	@CreatedBy
 	private String createdBy;
 	@CreatedDate
@@ -44,44 +40,6 @@ public abstract class BaseEntity<ID> {
 	@LastModifiedDate
 	private LocalDateTime lastModifiedDate;
 
-	public ID getId() {
-		return id;
-	}
-
-	public void setId(ID id) {
-		this.id = id;
-	}
-
-	public String getCreatedBy() {
-		return createdBy;
-	}
-
-	public void setCreatedBy(String createdBy) {
-		this.createdBy = createdBy;
-	}
-
-	public LocalDateTime getCreatedDate() {
-		return createdDate;
-	}
-
-	public void setCreatedDate(LocalDateTime createdDate) {
-		this.createdDate = createdDate;
-	}
-
-	public String getLastModifiedBy() {
-		return lastModifiedBy;
-	}
-
-	public void setLastModifiedBy(String lastModifiedBy) {
-		this.lastModifiedBy = lastModifiedBy;
-	}
-
-	public LocalDateTime getLastModifiedDate() {
-		return lastModifiedDate;
-	}
-
-	public void setLastModifiedDate(LocalDateTime lastModifiedDate) {
-		this.lastModifiedDate = lastModifiedDate;
-	}
+	
 	
 }

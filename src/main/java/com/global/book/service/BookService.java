@@ -13,21 +13,24 @@ import com.global.book.entity.Book;
 import com.global.book.repository.AuthorRepo;
 import com.global.book.repository.BookRepo;
 
+import lombok.RequiredArgsConstructor;
+import lombok.extern.log4j.Log4j2;
+
 @Service
+@RequiredArgsConstructor // instead of autowired (constructor injection)
+
+@Log4j2 // give me a log variable to use it in code
 public class BookService extends BaseService<Book,Long> {
-	private BookRepo bookRepo;
-	
-	
-	
+	private final BookRepo bookRepo;
 	private final static String USERS_PROC=".INSERT_JP_USERS";
 //	
 //	@Autowired
 //	private Environment env;
 
-	public BookService(BookRepo bookRepo) {
-		super();
-		this.bookRepo = bookRepo; 
-	}
+//	public BookService(BookRepo bookRepo) {
+//		super();
+//		this.bookRepo = bookRepo; 
+//	}
 	public List<Book> insertALL(List<Book>  books)
 	{
 		

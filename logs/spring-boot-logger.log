@@ -1,27 +1,38 @@
-2026-03-24 01:17:03,954 INFO o.s.b.StartupInfoLogger [main] Starting DataJpaBooksProjectApplication using Java 21.0.8 with PID 20856 (D:\BackEnd RoadMap\new workspace\data-jpa-books-project\target\classes started by HP in D:\BackEnd RoadMap\new workspace\data-jpa-books-project)
-2026-03-24 01:17:03,957 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v4.0.3, Spring v7.0.5
-2026-03-24 01:17:03,958 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2026-03-24 01:17:04,321 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
-2026-03-24 01:17:05,343 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-03-24 01:17:05,400 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 48 ms. Found 2 JPA repository interfaces.
-2026-03-24 01:17:06,132 INFO o.s.b.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
-2026-03-24 01:17:06,144 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
-2026-03-24 01:17:06,146 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
-2026-03-24 01:17:06,146 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-03-24 01:17:06,208 INFO o.s.b.w.c.s.WebApplicationContextInitializer [main] Root WebApplicationContext: initialization completed in 2205 ms
-2026-03-24 01:17:06,346 DEBUG o.s.w.f.GenericFilterBean [main] Filter 'webMvcObservationFilter' configured for use
-2026-03-24 01:17:06,922 INFO o.f.c.i.l.s.Slf4jLog [main] Database: jdbc:mysql://localhost:3306/book (MySQL 8.0)
-2026-03-24 01:17:07,022 INFO o.f.c.i.l.s.Slf4jLog [main] Successfully validated 3 migrations (execution time 00:00.064s)
-2026-03-24 01:17:07,042 INFO o.f.c.i.l.s.Slf4jLog [main] Current version of schema `book`: 2
-2026-03-24 01:17:07,045 INFO o.f.c.i.l.s.Slf4jLog [main] Schema `book` is up to date. No migration necessary.
-2026-03-24 01:17:07,141 INFO o.h.j.i.u.LogHelper [main] HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-03-24 01:17:07,192 INFO o.h.Version [main] HHH000001: Hibernate ORM core version 7.2.4.Final
-2026-03-24 01:17:07,628 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-03-24 01:17:07,662 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
-2026-03-24 01:17:07,690 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@29b2a94c
-2026-03-24 01:17:07,691 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
-2026-03-24 01:17:07,729 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-03-24 01:17:07,749 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [main] HHH10001005: Database info:
+2026-03-26 00:02:40,481 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1:housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m39s31ms314µs).
+2026-03-26 03:38:38,119 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1:housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h1m57s112ms800µs800ns).
+2026-03-26 04:30:34,773 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1:housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=36m56s415ms144µs300ns).
+2026-03-26 04:30:45,052 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(131)-127.0.0.1] Application shutdown requested.
+2026-03-26 04:30:45,056 INFO o.s.b.t.GracefulShutdown [RMI TCP Connection(131)-127.0.0.1] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-26 04:30:45,057 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2026-03-26 04:30:45,060 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2026-03-26 04:30:45,061 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(131)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2026-03-26 04:30:45,069 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(131)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-26 04:30:45,072 INFO c.z.h.HikariDataSource [RMI TCP Connection(131)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2026-03-26 04:30:45,075 INFO c.z.h.HikariDataSource [RMI TCP Connection(131)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2026-03-26 23:23:09,592 INFO o.s.b.StartupInfoLogger [main] Starting DataJpaBooksProjectApplication using Java 21.0.8 with PID 7820 (D:\BackEnd RoadMap\new workspace\data-jpa-books-project\target\classes started by HP in D:\BackEnd RoadMap\new workspace\data-jpa-books-project)
+2026-03-26 23:23:09,613 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-26 23:23:09,614 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2026-03-26 23:23:10,106 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-26 23:23:11,031 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-26 23:23:11,096 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 53 ms. Found 2 JPA repository interfaces.
+2026-03-26 23:23:11,962 INFO o.s.b.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2026-03-26 23:23:11,975 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-26 23:23:11,977 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2026-03-26 23:23:11,977 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-26 23:23:12,048 INFO o.s.b.w.c.s.WebApplicationContextInitializer [main] Root WebApplicationContext: initialization completed in 2378 ms
+2026-03-26 23:23:12,241 DEBUG o.s.w.f.GenericFilterBean [main] Filter 'webMvcObservationFilter' configured for use
+2026-03-26 23:23:12,895 INFO o.f.c.i.l.s.Slf4jLog [main] Database: jdbc:mysql://localhost:3306/book (MySQL 8.0)
+2026-03-26 23:23:13,021 INFO o.f.c.i.l.s.Slf4jLog [main] Successfully validated 3 migrations (execution time 00:00.076s)
+2026-03-26 23:23:13,040 INFO o.f.c.i.l.s.Slf4jLog [main] Current version of schema `book`: 2
+2026-03-26 23:23:13,044 INFO o.f.c.i.l.s.Slf4jLog [main] Schema `book` is up to date. No migration necessary.
+2026-03-26 23:23:13,159 INFO o.h.j.i.u.LogHelper [main] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-26 23:23:13,213 INFO o.h.Version [main] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-26 23:23:13,651 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-26 23:23:13,683 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2026-03-26 23:23:13,713 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65852d05
+2026-03-26 23:23:13,715 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2026-03-26 23:23:13,760 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-26 23:23:13,782 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [main] HHH10001005: Database info:
 	Database JDBC URL [jdbc:mysql://localhost:3306/book?createDatabaseIfNotExist=true]
 	Database driver: MySQL Connector/J
 	Database dialect: MySQLDialect
@@ -33,303 +44,356 @@
 	Pool: DataSourceConnectionProvider
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-03-24 01:17:08,789 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-03-24 01:17:08,865 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-03-24 01:17:08,993 INFO o.s.d.j.r.q.QueryEnhancerFactories [main] Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-03-24 01:17:10,489 WARN o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-03-24 01:17:10,677 DEBUG o.s.w.s.h.AbstractHandlerMethodMapping [main] 25 mappings in 'requestMappingHandlerMapping'
-2026-03-24 01:17:10,717 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
-2026-03-24 01:17:10,755 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
-2026-03-24 01:17:10,809 DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
-2026-03-24 01:17:11,324 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 13 endpoints beneath base path '/actuator'
-2026-03-24 01:17:11,402 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
-2026-03-24 01:17:11,422 INFO o.s.b.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
-2026-03-24 01:17:11,435 INFO o.s.b.StartupInfoLogger [main] Started DataJpaBooksProjectApplication in 7.821 seconds (process running for 8.696)
-2026-03-24 01:17:12,193 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(4)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-03-24 01:17:12,193 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
-2026-03-24 01:17:12,193 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(4)-127.0.0.1] Detected StandardServletMultipartResolver
-2026-03-24 01:17:12,193 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(4)-127.0.0.1] Detected AcceptHeaderLocaleResolver
-2026-03-24 01:17:12,195 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(4)-127.0.0.1] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2da2bc89
-2026-03-24 01:17:12,196 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(4)-127.0.0.1] Detected org.springframework.web.servlet.support.SessionFlashMapManager@68d57037
-2026-03-24 01:17:12,196 DEBUG o.s.w.s.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2026-03-24 01:17:12,196 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] Completed initialization in 3 ms
-2026-03-24 01:17:44,093 DEBUG o.s.c.l.LogFormatUtils [http-nio-8080-exec-1] GET "/book/2", parameters={}
-2026-03-24 01:17:44,107 DEBUG o.s.w.s.h.AbstractHandlerMapping [http-nio-8080-exec-1] Mapped to com.global.book.controller.BookController#findById(Long)
-2026-03-24 01:17:44,198 DEBUG o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-1] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/cbor, application/yaml]
-2026-03-24 01:17:44,200 DEBUG o.s.c.l.LogFormatUtils [http-nio-8080-exec-1] Writing [com.global.book.entity.BookDto@2885443b]
-2026-03-24 01:17:44,246 DEBUG o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed 200 OK
-2026-03-24 01:18:54,849 DEBUG o.s.c.l.LogFormatUtils [http-nio-8080-exec-5] GET "/book/2", parameters={}
-2026-03-24 01:18:54,851 DEBUG o.s.w.s.h.AbstractHandlerMapping [http-nio-8080-exec-5] Mapped to com.global.book.controller.BookController#findById(Long)
-2026-03-24 01:18:54,866 DEBUG o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-5] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/cbor, application/yaml]
-2026-03-24 01:18:54,866 DEBUG o.s.c.l.LogFormatUtils [http-nio-8080-exec-5] Writing [com.global.book.entity.BookDto@47270eea]
-2026-03-24 01:18:54,870 DEBUG o.s.w.s.FrameworkServlet [http-nio-8080-exec-5] Completed 200 OK
-2026-03-24 01:19:47,195 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(8)-127.0.0.1] Application shutdown requested.
-2026-03-24 01:19:47,200 INFO o.s.b.t.GracefulShutdown [RMI TCP Connection(8)-127.0.0.1] Commencing graceful shutdown. Waiting for active requests to complete
-2026-03-24 01:19:47,201 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
-2026-03-24 01:19:47,205 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
-2026-03-24 01:19:47,206 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(8)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
-2026-03-24 01:19:47,218 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(8)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-03-24 01:19:47,222 INFO c.z.h.HikariDataSource [RMI TCP Connection(8)-127.0.0.1] HikariPool-1 - Shutdown initiated...
-2026-03-24 01:19:47,227 INFO c.z.h.HikariDataSource [RMI TCP Connection(8)-127.0.0.1] HikariPool-1 - Shutdown completed.
-2026-03-24 01:23:34,672 INFO o.s.b.StartupInfoLogger [main] Starting DataJpaBooksProjectApplication using Java 21.0.8 with PID 18060 (D:\BackEnd RoadMap\new workspace\data-jpa-books-project\target\classes started by HP in D:\BackEnd RoadMap\new workspace\data-jpa-books-project)
-2026-03-24 01:23:34,675 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v4.0.3, Spring v7.0.5
-2026-03-24 01:23:34,676 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2026-03-24 01:23:35,147 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
-2026-03-24 01:23:35,908 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-03-24 01:23:35,968 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 50 ms. Found 2 JPA repository interfaces.
-2026-03-24 01:23:36,711 INFO o.s.b.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
-2026-03-24 01:23:36,723 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
-2026-03-24 01:23:36,725 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
-2026-03-24 01:23:36,725 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-03-24 01:23:36,791 INFO o.s.b.w.c.s.WebApplicationContextInitializer [main] Root WebApplicationContext: initialization completed in 2068 ms
-2026-03-24 01:23:36,944 DEBUG o.s.w.f.GenericFilterBean [main] Filter 'webMvcObservationFilter' configured for use
-2026-03-24 01:23:37,603 INFO o.f.c.i.l.s.Slf4jLog [main] Database: jdbc:mysql://localhost:3306/book (MySQL 8.0)
-2026-03-24 01:23:37,664 INFO o.f.c.i.l.s.Slf4jLog [main] Successfully validated 3 migrations (execution time 00:00.032s)
-2026-03-24 01:23:37,682 INFO o.f.c.i.l.s.Slf4jLog [main] Current version of schema `book`: 2
-2026-03-24 01:23:37,686 INFO o.f.c.i.l.s.Slf4jLog [main] Schema `book` is up to date. No migration necessary.
-2026-03-24 01:23:37,779 INFO o.h.j.i.u.LogHelper [main] HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-03-24 01:23:37,833 INFO o.h.Version [main] HHH000001: Hibernate ORM core version 7.2.4.Final
-2026-03-24 01:23:38,288 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-03-24 01:23:38,321 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
-2026-03-24 01:23:38,351 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@14f254f
-2026-03-24 01:23:38,353 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
-2026-03-24 01:23:38,395 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-03-24 01:23:38,415 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [main] HHH10001005: Database info:
-	Database JDBC URL [jdbc:mysql://localhost:3306/book?createDatabaseIfNotExist=true]
-	Database driver: MySQL Connector/J
-	Database dialect: MySQLDialect
-	Database version: 8.0.44
-	Default catalog/schema: book/undefined
-	Autocommit mode: undefined/unknown
-	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
-	JDBC fetch size: none
-	Pool: DataSourceConnectionProvider
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-03-24 01:23:39,435 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-03-24 01:23:39,505 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-03-24 01:23:39,607 INFO o.s.d.j.r.q.QueryEnhancerFactories [main] Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-03-24 01:23:41,187 WARN o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-03-24 01:23:41,380 DEBUG o.s.w.s.h.AbstractHandlerMethodMapping [main] 25 mappings in 'requestMappingHandlerMapping'
-2026-03-24 01:23:41,419 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
-2026-03-24 01:23:41,459 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
-2026-03-24 01:23:41,539 DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
-2026-03-24 01:23:41,910 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 13 endpoints beneath base path '/actuator'
-2026-03-24 01:23:41,989 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
-2026-03-24 01:23:42,008 INFO o.s.b.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
-2026-03-24 01:23:42,020 INFO o.s.b.StartupInfoLogger [main] Started DataJpaBooksProjectApplication in 7.698 seconds (process running for 9.042)
-2026-03-24 01:23:42,628 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(10)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-03-24 01:23:42,629 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(10)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
-2026-03-24 01:23:42,629 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(10)-127.0.0.1] Detected StandardServletMultipartResolver
-2026-03-24 01:23:42,629 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(10)-127.0.0.1] Detected AcceptHeaderLocaleResolver
-2026-03-24 01:23:42,631 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(10)-127.0.0.1] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@526ee5e6
-2026-03-24 01:23:42,631 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(10)-127.0.0.1] Detected org.springframework.web.servlet.support.SessionFlashMapManager@3335713
-2026-03-24 01:23:42,631 DEBUG o.s.w.s.FrameworkServlet [RMI TCP Connection(10)-127.0.0.1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2026-03-24 01:23:42,632 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(10)-127.0.0.1] Completed initialization in 3 ms
-2026-03-24 01:23:52,205 DEBUG o.s.c.l.LogFormatUtils [http-nio-8080-exec-2] GET "/book/2", parameters={}
-2026-03-24 01:23:52,216 DEBUG o.s.w.s.h.AbstractHandlerMapping [http-nio-8080-exec-2] Mapped to com.global.book.controller.BookController#findById(Long)
-2026-03-24 01:23:52,271 DEBUG o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-2] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/cbor, application/yaml]
-2026-03-24 01:23:52,273 DEBUG o.s.c.l.LogFormatUtils [http-nio-8080-exec-2] Writing [com.global.book.entity.BookDto@1d09c838]
-2026-03-24 01:23:52,316 DEBUG o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed 200 OK
-2026-03-24 01:30:34,383 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(17)-127.0.0.1] Application shutdown requested.
-2026-03-24 01:30:34,388 INFO o.s.b.t.GracefulShutdown [RMI TCP Connection(17)-127.0.0.1] Commencing graceful shutdown. Waiting for active requests to complete
-2026-03-24 01:30:34,390 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
-2026-03-24 01:30:34,394 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
-2026-03-24 01:30:34,394 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(17)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
-2026-03-24 01:30:34,402 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(17)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-03-24 01:30:34,405 INFO c.z.h.HikariDataSource [RMI TCP Connection(17)-127.0.0.1] HikariPool-1 - Shutdown initiated...
-2026-03-24 01:30:34,411 INFO c.z.h.HikariDataSource [RMI TCP Connection(17)-127.0.0.1] HikariPool-1 - Shutdown completed.
-2026-03-24 01:30:37,152 INFO o.s.b.StartupInfoLogger [main] Starting DataJpaBooksProjectApplication using Java 21.0.8 with PID 5424 (D:\BackEnd RoadMap\new workspace\data-jpa-books-project\target\classes started by HP in D:\BackEnd RoadMap\new workspace\data-jpa-books-project)
-2026-03-24 01:30:37,154 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v4.0.3, Spring v7.0.5
-2026-03-24 01:30:37,155 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2026-03-24 01:30:37,599 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
-2026-03-24 01:30:38,371 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-03-24 01:30:38,428 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 48 ms. Found 2 JPA repository interfaces.
-2026-03-24 01:30:39,182 INFO o.s.b.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
-2026-03-24 01:30:39,194 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
-2026-03-24 01:30:39,196 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
-2026-03-24 01:30:39,196 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-03-24 01:30:39,266 INFO o.s.b.w.c.s.WebApplicationContextInitializer [main] Root WebApplicationContext: initialization completed in 2061 ms
-2026-03-24 01:30:39,398 DEBUG o.s.w.f.GenericFilterBean [main] Filter 'webMvcObservationFilter' configured for use
-2026-03-24 01:30:39,962 INFO o.f.c.i.l.s.Slf4jLog [main] Database: jdbc:mysql://localhost:3306/book (MySQL 8.0)
-2026-03-24 01:30:40,019 INFO o.f.c.i.l.s.Slf4jLog [main] Successfully validated 3 migrations (execution time 00:00.030s)
-2026-03-24 01:30:40,037 INFO o.f.c.i.l.s.Slf4jLog [main] Current version of schema `book`: 2
-2026-03-24 01:30:40,041 INFO o.f.c.i.l.s.Slf4jLog [main] Schema `book` is up to date. No migration necessary.
-2026-03-24 01:30:40,141 INFO o.h.j.i.u.LogHelper [main] HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-03-24 01:30:40,196 INFO o.h.Version [main] HHH000001: Hibernate ORM core version 7.2.4.Final
-2026-03-24 01:30:40,657 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-03-24 01:30:40,690 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
-2026-03-24 01:30:40,718 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c950fd
-2026-03-24 01:30:40,720 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
-2026-03-24 01:30:40,757 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-03-24 01:30:40,776 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [main] HHH10001005: Database info:
-	Database JDBC URL [jdbc:mysql://localhost:3306/book?createDatabaseIfNotExist=true]
-	Database driver: MySQL Connector/J
-	Database dialect: MySQLDialect
-	Database version: 8.0.44
-	Default catalog/schema: book/undefined
-	Autocommit mode: undefined/unknown
-	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
-	JDBC fetch size: none
-	Pool: DataSourceConnectionProvider
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-03-24 01:30:41,783 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-03-24 01:30:41,855 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-03-24 01:30:41,952 INFO o.s.d.j.r.q.QueryEnhancerFactories [main] Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-03-24 01:30:43,169 WARN o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-03-24 01:30:43,348 DEBUG o.s.w.s.h.AbstractHandlerMethodMapping [main] 25 mappings in 'requestMappingHandlerMapping'
-2026-03-24 01:30:43,385 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
-2026-03-24 01:30:43,416 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
-2026-03-24 01:30:43,486 DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
-2026-03-24 01:30:43,869 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 13 endpoints beneath base path '/actuator'
-2026-03-24 01:30:43,945 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
-2026-03-24 01:30:43,967 INFO o.s.b.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
-2026-03-24 01:30:43,979 INFO o.s.b.StartupInfoLogger [main] Started DataJpaBooksProjectApplication in 7.171 seconds (process running for 8.036)
-2026-03-24 01:30:44,520 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(9)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-03-24 01:30:44,520 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(9)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
-2026-03-24 01:30:44,520 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(9)-127.0.0.1] Detected StandardServletMultipartResolver
-2026-03-24 01:30:44,521 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(9)-127.0.0.1] Detected AcceptHeaderLocaleResolver
-2026-03-24 01:30:44,522 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(9)-127.0.0.1] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@526ee5e6
-2026-03-24 01:30:44,523 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(9)-127.0.0.1] Detected org.springframework.web.servlet.support.SessionFlashMapManager@3335713
-2026-03-24 01:30:44,523 DEBUG o.s.w.s.FrameworkServlet [RMI TCP Connection(9)-127.0.0.1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2026-03-24 01:30:44,524 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(9)-127.0.0.1] Completed initialization in 4 ms
-2026-03-24 01:30:50,189 DEBUG o.s.c.l.LogFormatUtils [http-nio-8080-exec-2] GET "/book/2", parameters={}
-2026-03-24 01:30:50,199 DEBUG o.s.w.s.h.AbstractHandlerMapping [http-nio-8080-exec-2] Mapped to com.global.book.controller.BookController#findById(Long)
-2026-03-24 01:30:50,255 DEBUG o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-2] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/cbor, application/yaml]
-2026-03-24 01:30:50,257 DEBUG o.s.c.l.LogFormatUtils [http-nio-8080-exec-2] Writing [com.global.book.entity.BookDto@3383dfcb]
-2026-03-24 01:30:50,291 DEBUG o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed 200 OK
-2026-03-24 01:42:04,082 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(23)-127.0.0.1] Application shutdown requested.
-2026-03-24 01:42:04,090 INFO o.s.b.t.GracefulShutdown [RMI TCP Connection(23)-127.0.0.1] Commencing graceful shutdown. Waiting for active requests to complete
-2026-03-24 01:42:04,092 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
-2026-03-24 01:42:04,096 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
-2026-03-24 01:42:04,097 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(23)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
-2026-03-24 01:42:04,105 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(23)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-03-24 01:42:04,108 INFO c.z.h.HikariDataSource [RMI TCP Connection(23)-127.0.0.1] HikariPool-1 - Shutdown initiated...
-2026-03-24 01:42:04,113 INFO c.z.h.HikariDataSource [RMI TCP Connection(23)-127.0.0.1] HikariPool-1 - Shutdown completed.
-2026-03-24 01:42:08,144 INFO o.s.b.StartupInfoLogger [main] Starting DataJpaBooksProjectApplication using Java 21.0.8 with PID 16548 (D:\BackEnd RoadMap\new workspace\data-jpa-books-project\target\classes started by HP in D:\BackEnd RoadMap\new workspace\data-jpa-books-project)
-2026-03-24 01:42:08,148 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v4.0.3, Spring v7.0.5
-2026-03-24 01:42:08,149 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2026-03-24 01:42:08,602 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.global.book.DataJpaBooksProjectApplication]
-2026-03-24 01:42:08,836 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
-2026-03-24 01:42:09,113 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+2026-03-26 23:23:14,984 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-26 23:23:15,069 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-26 23:23:15,266 INFO o.s.d.j.r.q.QueryEnhancerFactories [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-26 23:23:16,863 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productsController' defined in file [D:\BackEnd RoadMap\new workspace\data-jpa-books-project\target\classes\com\global\book\controller\ProductsController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'productService' defined in file [D:\BackEnd RoadMap\new workspace\data-jpa-books-project\target\classes\com\global\book\service\ProductService.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'org.springframework.web.client.RestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2026-03-26 23:23:16,865 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-26 23:23:16,868 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2026-03-26 23:23:16,873 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2026-03-26 23:23:16,875 INFO o.a.j.l.DirectJDKLog [main] Stopping service [Tomcat]
+2026-03-26 23:23:16,889 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
 
 Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2026-03-24 01:42:09,150 ERROR o.s.b.SpringApplication [main] Application run failed
-org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.global.book.DataJpaBooksProjectApplication]
-	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:196)
-	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:446)
-	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:310)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
-	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:795)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:603)
-	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+2026-03-26 23:23:16,910 ERROR o.s.b.d.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.global.book.service.ProductService required a bean of type 'org.springframework.web.client.RestTemplate' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.web.client.RestTemplate' in your configuration.
+
+2026-03-26 23:30:27,919 INFO o.s.b.StartupInfoLogger [main] Starting DataJpaBooksProjectApplication using Java 21.0.8 with PID 10272 (D:\BackEnd RoadMap\new workspace\data-jpa-books-project\target\classes started by HP in D:\BackEnd RoadMap\new workspace\data-jpa-books-project)
+2026-03-26 23:30:27,920 INFO o.s.b.StartupInfoLogger [main] Starting DataJpaBooksProjectApplication using Java 21.0.8 with PID 13608 (D:\BackEnd RoadMap\new workspace\data-jpa-books-project\target\classes started by HP in D:\BackEnd RoadMap\new workspace\data-jpa-books-project)
+2026-03-26 23:30:27,923 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-26 23:30:27,923 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-26 23:30:27,923 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2026-03-26 23:30:27,924 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2026-03-26 23:30:28,457 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-26 23:30:28,462 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-26 23:30:29,432 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-26 23:30:29,432 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-26 23:30:29,526 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 80 ms. Found 2 JPA repository interfaces.
+2026-03-26 23:30:29,526 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 80 ms. Found 2 JPA repository interfaces.
+2026-03-26 23:30:31,206 INFO o.s.b.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2026-03-26 23:30:31,230 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-26 23:30:31,234 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2026-03-26 23:30:31,235 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-26 23:30:31,239 INFO o.s.b.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2026-03-26 23:30:31,271 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-26 23:30:31,275 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2026-03-26 23:30:31,275 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-26 23:30:31,362 INFO o.s.b.w.c.s.WebApplicationContextInitializer [main] Root WebApplicationContext: initialization completed in 3380 ms
+2026-03-26 23:30:31,409 INFO o.s.b.w.c.s.WebApplicationContextInitializer [main] Root WebApplicationContext: initialization completed in 3431 ms
+2026-03-26 23:30:31,673 DEBUG o.s.w.f.GenericFilterBean [main] Filter 'webMvcObservationFilter' configured for use
+2026-03-26 23:30:31,705 DEBUG o.s.w.f.GenericFilterBean [main] Filter 'webMvcObservationFilter' configured for use
+2026-03-26 23:30:32,343 INFO o.f.c.i.l.s.Slf4jLog [main] Database: jdbc:mysql://localhost:3306/book (MySQL 8.0)
+2026-03-26 23:30:32,390 INFO o.f.c.i.l.s.Slf4jLog [main] Database: jdbc:mysql://localhost:3306/book (MySQL 8.0)
+2026-03-26 23:30:32,413 INFO o.f.c.i.l.s.Slf4jLog [main] Successfully validated 3 migrations (execution time 00:00.040s)
+2026-03-26 23:30:32,433 INFO o.f.c.i.l.s.Slf4jLog [main] Current version of schema `book`: 2
+2026-03-26 23:30:32,437 INFO o.f.c.i.l.s.Slf4jLog [main] Schema `book` is up to date. No migration necessary.
+2026-03-26 23:30:32,463 INFO o.f.c.i.l.s.Slf4jLog [main] Successfully validated 3 migrations (execution time 00:00.041s)
+2026-03-26 23:30:32,486 INFO o.f.c.i.l.s.Slf4jLog [main] Current version of schema `book`: 2
+2026-03-26 23:30:32,490 INFO o.f.c.i.l.s.Slf4jLog [main] Schema `book` is up to date. No migration necessary.
+2026-03-26 23:30:32,570 INFO o.h.j.i.u.LogHelper [main] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-26 23:30:32,613 INFO o.h.j.i.u.LogHelper [main] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-26 23:30:32,632 INFO o.h.Version [main] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-26 23:30:32,683 INFO o.h.Version [main] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-26 23:30:33,158 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-26 23:30:33,194 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2026-03-26 23:30:33,198 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-26 23:30:33,228 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1d208795
+2026-03-26 23:30:33,230 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2026-03-26 23:30:33,239 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2026-03-26 23:30:33,271 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-26 23:30:33,271 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@76d220eb
+2026-03-26 23:30:33,273 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2026-03-26 23:30:33,296 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [main] HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/book?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: book/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-26 23:30:33,319 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-26 23:30:33,342 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [main] HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/book?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: book/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-26 23:30:34,435 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-26 23:30:34,480 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-26 23:30:34,514 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-26 23:30:34,560 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-26 23:30:34,772 INFO o.s.d.j.r.q.QueryEnhancerFactories [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-26 23:30:34,826 INFO o.s.d.j.r.q.QueryEnhancerFactories [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-26 23:30:36,159 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productsController' defined in file [D:\BackEnd RoadMap\new workspace\data-jpa-books-project\target\classes\com\global\book\controller\ProductsController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'productService': Unsatisfied dependency expressed through field 'restTemplate': No qualifying bean of type 'org.springframework.web.client.RestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2026-03-26 23:30:36,161 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-26 23:30:36,165 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2026-03-26 23:30:36,171 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2026-03-26 23:30:36,173 INFO o.a.j.l.DirectJDKLog [main] Stopping service [Tomcat]
+2026-03-26 23:30:36,186 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-26 23:30:36,213 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productsController' defined in file [D:\BackEnd RoadMap\new workspace\data-jpa-books-project\target\classes\com\global\book\controller\ProductsController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'productService': Unsatisfied dependency expressed through field 'restTemplate': No qualifying bean of type 'org.springframework.web.client.RestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2026-03-26 23:30:36,213 ERROR o.s.b.d.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field restTemplate in com.global.book.service.ProductService required a bean of type 'org.springframework.web.client.RestTemplate' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.web.client.RestTemplate' in your configuration.
+
+2026-03-26 23:30:36,215 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-26 23:30:36,218 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2026-03-26 23:30:36,223 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2026-03-26 23:30:36,226 INFO o.a.j.l.DirectJDKLog [main] Stopping service [Tomcat]
+2026-03-26 23:30:36,241 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-26 23:30:36,264 ERROR o.s.b.d.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field restTemplate in com.global.book.service.ProductService required a bean of type 'org.springframework.web.client.RestTemplate' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.web.client.RestTemplate' in your configuration.
+
+2026-03-26 23:31:15,353 INFO o.s.b.StartupInfoLogger [main] Starting DataJpaBooksProjectApplication using Java 21.0.8 with PID 11792 (D:\BackEnd RoadMap\new workspace\data-jpa-books-project\target\classes started by HP in D:\BackEnd RoadMap\new workspace\data-jpa-books-project)
+2026-03-26 23:31:15,355 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-26 23:31:15,355 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2026-03-26 23:31:15,729 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-26 23:31:16,487 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-26 23:31:16,544 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 48 ms. Found 2 JPA repository interfaces.
+2026-03-26 23:31:17,356 INFO o.s.b.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2026-03-26 23:31:17,368 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-26 23:31:17,370 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2026-03-26 23:31:17,370 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-26 23:31:17,432 INFO o.s.b.w.c.s.WebApplicationContextInitializer [main] Root WebApplicationContext: initialization completed in 2031 ms
+2026-03-26 23:31:17,618 DEBUG o.s.w.f.GenericFilterBean [main] Filter 'webMvcObservationFilter' configured for use
+2026-03-26 23:31:18,193 INFO o.f.c.i.l.s.Slf4jLog [main] Database: jdbc:mysql://localhost:3306/book (MySQL 8.0)
+2026-03-26 23:31:18,263 INFO o.f.c.i.l.s.Slf4jLog [main] Successfully validated 3 migrations (execution time 00:00.037s)
+2026-03-26 23:31:18,286 INFO o.f.c.i.l.s.Slf4jLog [main] Current version of schema `book`: 2
+2026-03-26 23:31:18,289 INFO o.f.c.i.l.s.Slf4jLog [main] Schema `book` is up to date. No migration necessary.
+2026-03-26 23:31:18,413 INFO o.h.j.i.u.LogHelper [main] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-26 23:31:18,470 INFO o.h.Version [main] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-26 23:31:18,969 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-26 23:31:19,001 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2026-03-26 23:31:19,033 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@36e11b60
+2026-03-26 23:31:19,035 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2026-03-26 23:31:19,071 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-26 23:31:19,090 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [main] HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/book?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: book/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-26 23:31:20,039 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-26 23:31:20,107 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-26 23:31:20,285 INFO o.s.d.j.r.q.QueryEnhancerFactories [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-26 23:31:21,632 WARN o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-26 23:31:21,863 DEBUG o.s.w.s.h.AbstractHandlerMethodMapping [main] 25 mappings in 'requestMappingHandlerMapping'
+2026-03-26 23:31:21,920 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-03-26 23:31:21,959 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-03-26 23:31:22,021 DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-03-26 23:31:22,556 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 13 endpoints beneath base path '/actuator'
+2026-03-26 23:31:22,655 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2026-03-26 23:31:22,679 INFO o.s.b.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
+2026-03-26 23:31:22,690 INFO o.s.b.StartupInfoLogger [main] Started DataJpaBooksProjectApplication in 7.672 seconds (process running for 8.522)
+2026-03-26 23:31:22,701 INFO c.g.b.a.LogTimeAspect [main] Method name is =>>> BaseService.findAll()
+2026-03-26 23:31:22,704 INFO c.g.b.a.LogTimeAspect [main] Method name is =>>> ListCrudRepository.findAll()
+2026-03-26 23:31:23,380 WARN o.h.e.j.s.SqlExceptionHelper [main] HHH000247: ErrorCode: 1064, SQLState: 42000
+2026-03-26 23:31:23,380 WARN o.h.e.j.s.SqlExceptionHelper [main] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(*) from books book where book.author_id = a1_0.id),a1_0.created_by,a1_0.created' at line 1
+2026-03-26 23:31:23,394 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-26 23:31:23,408 ERROR o.s.b.SpringApplication [main] Application run failed
+org.springframework.dao.InvalidDataAccessResourceUsageException: JDBC exception executing SQL [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(*) from books book where book.author_id = a1_0.id),a1_0.created_by,a1_0.created' at line 1] [select a1_0.id,(select a1_0.coun t(*) from books book where book.author_id = a1_0.id),a1_0.created_by,a1_0.created_date,a1_0.email,a1_0.image_path,a1_0.ip_address,a1_0.last_modified_by,a1_0.last_modified_date,a1_0.name,a1_0.status_code from authors a1_0]; SQL [select a1_0.id,(select a1_0.coun t(*) from books book where book.author_id = a1_0.id),a1_0.created_by,a1_0.created_date,a1_0.email,a1_0.image_path,a1_0.ip_address,a1_0.last_modified_by,a1_0.last_modified_date,a1_0.name,a1_0.status_code from authors a1_0]
+	at org.springframework.orm.jpa.hibernate.HibernateExceptionTranslator.convertHibernateAccessException(HibernateExceptionTranslator.java:156)
+	at org.springframework.orm.jpa.hibernate.HibernateExceptionTranslator.convertHibernateAccessException(HibernateExceptionTranslator.java:131)
+	at org.springframework.orm.jpa.hibernate.HibernateExceptionTranslator.translateExceptionIfPossible(HibernateExceptionTranslator.java:105)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:223)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:576)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:346)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:157)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:166)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:222)
+	at jdk.proxy2/jdk.proxy2.$Proxy208.findAll(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:135)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:222)
+	at jdk.proxy2/jdk.proxy2.$Proxy208.findAll(Unknown Source)
+	at com.global.book.base.BaseService.findAll(BaseService.java:45)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:82)
+	at com.global.book.aspect.MeasurmentAspect.logTime(MeasurmentAspect.java:39)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:648)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:630)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719)
+	at com.global.book.service.AuthorService$$SpringCGLIB$$0.findAll(<generated>)
+	at com.global.book.config.StartUpApp.run(StartUpApp.java:27)
+	at org.springframework.boot.SpringApplication.lambda$callRunner$1(SpringApplication.java:792)
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82)
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60)
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:800)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791)
+	at org.springframework.boot.SpringApplication.lambda$callRunners$0(SpringApplication.java:776)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:776)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:328)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
 	at com.global.book.DataJpaBooksProjectApplication.main(DataJpaBooksProjectApplication.java:10)
-Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'logTimeAspect' for bean class [com.global.book.LogTimeAspect] conflicts with existing, non-compatible bean definition of same name and class [com.global.book.aspect.LogTimeAspect]
-	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:360)
-	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:287)
-	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
-	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:347)
-	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:283)
-	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:206)
-	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:174)
-	... 13 common frames omitted
-2026-03-24 01:43:26,275 INFO o.s.b.StartupInfoLogger [main] Starting DataJpaBooksProjectApplication using Java 21.0.8 with PID 21140 (D:\BackEnd RoadMap\new workspace\data-jpa-books-project\target\classes started by HP in D:\BackEnd RoadMap\new workspace\data-jpa-books-project)
-2026-03-24 01:43:26,278 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v4.0.3, Spring v7.0.5
-2026-03-24 01:43:26,280 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2026-03-24 01:43:26,846 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.global.book.DataJpaBooksProjectApplication]
-2026-03-24 01:43:26,898 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
-2026-03-24 01:43:27,227 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2026-03-24 01:43:27,270 ERROR o.s.b.SpringApplication [main] Application run failed
-org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.global.book.DataJpaBooksProjectApplication]
-	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:196)
-	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:446)
-	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:310)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
-	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:795)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:603)
-	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.global.book.DataJpaBooksProjectApplication.main(DataJpaBooksProjectApplication.java:10)
-Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'logTimeAspect' for bean class [com.global.book.LogTimeAspect] conflicts with existing, non-compatible bean definition of same name and class [com.global.book.aspect.LogTimeAspect]
-	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:360)
-	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:287)
-	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
-	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:347)
-	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:283)
-	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:206)
-	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:174)
-	... 13 common frames omitted
-2026-03-24 01:46:30,330 INFO o.s.b.StartupInfoLogger [main] Starting DataJpaBooksProjectApplication using Java 21.0.8 with PID 10188 (D:\BackEnd RoadMap\new workspace\data-jpa-books-project\target\classes started by HP in D:\BackEnd RoadMap\new workspace\data-jpa-books-project)
-2026-03-24 01:46:30,333 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v4.0.3, Spring v7.0.5
-2026-03-24 01:46:30,335 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2026-03-24 01:46:30,766 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.global.book.DataJpaBooksProjectApplication]
-2026-03-24 01:46:30,970 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
-2026-03-24 01:46:31,323 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2026-03-24 01:46:31,372 ERROR o.s.b.SpringApplication [main] Application run failed
-org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.global.book.DataJpaBooksProjectApplication]
-	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:196)
-	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:446)
-	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:310)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
-	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:795)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:603)
-	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.global.book.DataJpaBooksProjectApplication.main(DataJpaBooksProjectApplication.java:10)
-Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'logTimeAspect' for bean class [com.global.book.LogTimeAspect] conflicts with existing, non-compatible bean definition of same name and class [com.global.book.aspect.LogTimeAspect]
-	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:360)
-	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:287)
-	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
-	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:347)
-	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:283)
-	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:206)
-	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:174)
-	... 13 common frames omitted
-2026-03-24 01:47:33,287 INFO o.s.b.StartupInfoLogger [main] Starting DataJpaBooksProjectApplication using Java 21.0.8 with PID 17640 (D:\BackEnd RoadMap\new workspace\data-jpa-books-project\target\classes started by HP in D:\BackEnd RoadMap\new workspace\data-jpa-books-project)
-2026-03-24 01:47:33,290 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v4.0.3, Spring v7.0.5
-2026-03-24 01:47:33,290 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2026-03-24 01:47:33,721 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
-2026-03-24 01:47:34,453 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-03-24 01:47:34,512 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 51 ms. Found 2 JPA repository interfaces.
-2026-03-24 01:47:35,313 INFO o.s.b.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
-2026-03-24 01:47:35,325 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
-2026-03-24 01:47:35,327 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
-2026-03-24 01:47:35,327 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-03-24 01:47:35,390 INFO o.s.b.w.c.s.WebApplicationContextInitializer [main] Root WebApplicationContext: initialization completed in 2054 ms
-2026-03-24 01:47:35,567 DEBUG o.s.w.f.GenericFilterBean [main] Filter 'webMvcObservationFilter' configured for use
-2026-03-24 01:47:36,136 INFO o.f.c.i.l.s.Slf4jLog [main] Database: jdbc:mysql://localhost:3306/book (MySQL 8.0)
-2026-03-24 01:47:36,194 INFO o.f.c.i.l.s.Slf4jLog [main] Successfully validated 3 migrations (execution time 00:00.032s)
-2026-03-24 01:47:36,213 INFO o.f.c.i.l.s.Slf4jLog [main] Current version of schema `book`: 2
-2026-03-24 01:47:36,217 INFO o.f.c.i.l.s.Slf4jLog [main] Schema `book` is up to date. No migration necessary.
-2026-03-24 01:47:36,315 INFO o.h.j.i.u.LogHelper [main] HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-03-24 01:47:36,373 INFO o.h.Version [main] HHH000001: Hibernate ORM core version 7.2.4.Final
-2026-03-24 01:47:36,800 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-03-24 01:47:36,836 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
-2026-03-24 01:47:36,865 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a644d75
-2026-03-24 01:47:36,867 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
-2026-03-24 01:47:36,904 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-03-24 01:47:36,922 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [main] HHH10001005: Database info:
+Caused by: org.hibernate.exception.SQLGrammarException: JDBC exception executing SQL [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(*) from books book where book.author_id = a1_0.id),a1_0.created_by,a1_0.created' at line 1] [select a1_0.id,(select a1_0.coun t(*) from books book where book.author_id = a1_0.id),a1_0.created_by,a1_0.created_date,a1_0.email,a1_0.image_path,a1_0.ip_address,a1_0.last_modified_by,a1_0.last_modified_date,a1_0.name,a1_0.status_code from authors a1_0]
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:64)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:34)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:115)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:290)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.getResultSet(DeferredResultSetAccess.java:190)
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.<init>(JdbcValuesResultSetImpl.java:71)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.resolveJdbcValues(JdbcSelectExecutorStandardImpl.java:393)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.resolveJdbcValuesSource(JdbcSelectExecutorStandardImpl.java:354)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:135)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:100)
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.executeQuery(JdbcSelectExecutor.java:63)
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:137)
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.lambda$new$1(ConcreteSqmSelectQueryPlan.java:128)
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.withCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:427)
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.performList(ConcreteSqmSelectQueryPlan.java:355)
+	at org.hibernate.query.sqm.internal.SqmQueryImpl.doList(SqmQueryImpl.java:374)
+	at org.hibernate.query.spi.AbstractSelectionQuery.list(AbstractSelectionQuery.java:153)
+	at org.hibernate.query.Query.getResultList(Query.java:121)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll(SimpleJpaRepository.java:412)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:278)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:169)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:545)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:290)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:690)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:171)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:146)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:133)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:135)
+	... 59 common frames omitted
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(*) from books book where book.author_id = a1_0.id),a1_0.created_by,a1_0.created' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1056)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:271)
+	... 94 common frames omitted
+2026-03-26 23:31:23,415 INFO o.s.b.t.GracefulShutdown [main] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-26 23:31:23,419 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2026-03-26 23:31:23,427 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-26 23:31:23,429 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2026-03-26 23:31:23,435 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2026-03-26 23:35:48,161 INFO o.s.b.StartupInfoLogger [main] Starting DataJpaBooksProjectApplication using Java 21.0.8 with PID 360 (D:\BackEnd RoadMap\new workspace\data-jpa-books-project\target\classes started by HP in D:\BackEnd RoadMap\new workspace\data-jpa-books-project)
+2026-03-26 23:35:48,163 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-26 23:35:48,164 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2026-03-26 23:35:48,543 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-03-26 23:35:49,258 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-26 23:35:49,315 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 49 ms. Found 2 JPA repository interfaces.
+2026-03-26 23:35:50,131 INFO o.s.b.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2026-03-26 23:35:50,142 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-26 23:35:50,144 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2026-03-26 23:35:50,144 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-26 23:35:50,206 INFO o.s.b.w.c.s.WebApplicationContextInitializer [main] Root WebApplicationContext: initialization completed in 1998 ms
+2026-03-26 23:35:50,391 DEBUG o.s.w.f.GenericFilterBean [main] Filter 'webMvcObservationFilter' configured for use
+2026-03-26 23:35:50,958 INFO o.f.c.i.l.s.Slf4jLog [main] Database: jdbc:mysql://localhost:3306/book (MySQL 8.0)
+2026-03-26 23:35:51,014 INFO o.f.c.i.l.s.Slf4jLog [main] Successfully validated 3 migrations (execution time 00:00.029s)
+2026-03-26 23:35:51,032 INFO o.f.c.i.l.s.Slf4jLog [main] Current version of schema `book`: 2
+2026-03-26 23:35:51,036 INFO o.f.c.i.l.s.Slf4jLog [main] Schema `book` is up to date. No migration necessary.
+2026-03-26 23:35:51,132 INFO o.h.j.i.u.LogHelper [main] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-26 23:35:51,182 INFO o.h.Version [main] HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-26 23:35:51,606 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-26 23:35:51,639 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2026-03-26 23:35:51,666 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7d50b4c4
+2026-03-26 23:35:51,669 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2026-03-26 23:35:51,705 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-26 23:35:51,723 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [main] HHH10001005: Database info:
 	Database JDBC URL [jdbc:mysql://localhost:3306/book?createDatabaseIfNotExist=true]
 	Database driver: MySQL Connector/J
 	Database dialect: MySQLDialect
@@ -341,400 +405,29 @@ Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionExcep
 	Pool: DataSourceConnectionProvider
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-03-24 01:47:37,901 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-03-24 01:47:37,967 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-03-24 01:47:38,127 INFO o.s.d.j.r.q.QueryEnhancerFactories [main] Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-03-24 01:47:39,455 WARN o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-03-24 01:47:39,665 DEBUG o.s.w.s.h.AbstractHandlerMethodMapping [main] 25 mappings in 'requestMappingHandlerMapping'
-2026-03-24 01:47:39,710 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
-2026-03-24 01:47:39,755 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
-2026-03-24 01:47:39,824 DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
-2026-03-24 01:47:40,287 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 13 endpoints beneath base path '/actuator'
-2026-03-24 01:47:40,373 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
-2026-03-24 01:47:40,391 INFO o.s.b.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
-2026-03-24 01:47:40,401 INFO o.s.b.StartupInfoLogger [main] Started DataJpaBooksProjectApplication in 7.462 seconds (process running for 8.32)
-2026-03-24 01:47:41,105 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(10)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-03-24 01:47:41,105 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(10)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
-2026-03-24 01:47:41,106 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(10)-127.0.0.1] Detected StandardServletMultipartResolver
-2026-03-24 01:47:41,106 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(10)-127.0.0.1] Detected AcceptHeaderLocaleResolver
-2026-03-24 01:47:41,107 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(10)-127.0.0.1] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@707c1e41
-2026-03-24 01:47:41,108 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(10)-127.0.0.1] Detected org.springframework.web.servlet.support.SessionFlashMapManager@7b7aaaf6
-2026-03-24 01:47:41,108 DEBUG o.s.w.s.FrameworkServlet [RMI TCP Connection(10)-127.0.0.1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2026-03-24 01:47:41,109 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(10)-127.0.0.1] Completed initialization in 2 ms
-2026-03-24 01:47:47,299 DEBUG o.s.c.l.LogFormatUtils [http-nio-8080-exec-1] GET "/book/2", parameters={}
-2026-03-24 01:47:47,308 DEBUG o.s.w.s.h.AbstractHandlerMapping [http-nio-8080-exec-1] Mapped to com.global.book.controller.BookController#findById(Long)
-2026-03-24 01:47:47,360 DEBUG o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-1] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/cbor, application/yaml]
-2026-03-24 01:47:47,362 DEBUG o.s.c.l.LogFormatUtils [http-nio-8080-exec-1] Writing [com.global.book.entity.BookDto@4670bcbb]
-2026-03-24 01:47:47,392 DEBUG o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed 200 OK
-2026-03-24 01:48:34,709 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(11)-127.0.0.1] Application shutdown requested.
-2026-03-24 01:48:34,713 INFO o.s.b.t.GracefulShutdown [RMI TCP Connection(11)-127.0.0.1] Commencing graceful shutdown. Waiting for active requests to complete
-2026-03-24 01:48:34,714 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
-2026-03-24 01:48:34,718 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
-2026-03-24 01:48:34,719 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(11)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
-2026-03-24 01:48:34,726 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(11)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-03-24 01:48:34,729 INFO c.z.h.HikariDataSource [RMI TCP Connection(11)-127.0.0.1] HikariPool-1 - Shutdown initiated...
-2026-03-24 01:48:34,733 INFO c.z.h.HikariDataSource [RMI TCP Connection(11)-127.0.0.1] HikariPool-1 - Shutdown completed.
-2026-03-24 01:48:37,152 INFO o.s.b.StartupInfoLogger [main] Starting DataJpaBooksProjectApplication using Java 21.0.8 with PID 17488 (D:\BackEnd RoadMap\new workspace\data-jpa-books-project\target\classes started by HP in D:\BackEnd RoadMap\new workspace\data-jpa-books-project)
-2026-03-24 01:48:37,155 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v4.0.3, Spring v7.0.5
-2026-03-24 01:48:37,155 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2026-03-24 01:48:37,543 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
-2026-03-24 01:48:38,291 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-03-24 01:48:38,350 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 49 ms. Found 2 JPA repository interfaces.
-2026-03-24 01:48:39,202 INFO o.s.b.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
-2026-03-24 01:48:39,214 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
-2026-03-24 01:48:39,216 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
-2026-03-24 01:48:39,216 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-03-24 01:48:39,276 INFO o.s.b.w.c.s.WebApplicationContextInitializer [main] Root WebApplicationContext: initialization completed in 2077 ms
-2026-03-24 01:48:39,440 DEBUG o.s.w.f.GenericFilterBean [main] Filter 'webMvcObservationFilter' configured for use
-2026-03-24 01:48:40,028 INFO o.f.c.i.l.s.Slf4jLog [main] Database: jdbc:mysql://localhost:3306/book (MySQL 8.0)
-2026-03-24 01:48:40,090 INFO o.f.c.i.l.s.Slf4jLog [main] Successfully validated 3 migrations (execution time 00:00.035s)
-2026-03-24 01:48:40,110 INFO o.f.c.i.l.s.Slf4jLog [main] Current version of schema `book`: 2
-2026-03-24 01:48:40,114 INFO o.f.c.i.l.s.Slf4jLog [main] Schema `book` is up to date. No migration necessary.
-2026-03-24 01:48:40,216 INFO o.h.j.i.u.LogHelper [main] HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-03-24 01:48:40,271 INFO o.h.Version [main] HHH000001: Hibernate ORM core version 7.2.4.Final
-2026-03-24 01:48:40,750 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-03-24 01:48:40,784 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
-2026-03-24 01:48:40,812 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@268f126f
-2026-03-24 01:48:40,813 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
-2026-03-24 01:48:40,848 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-03-24 01:48:40,866 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [main] HHH10001005: Database info:
-	Database JDBC URL [jdbc:mysql://localhost:3306/book?createDatabaseIfNotExist=true]
-	Database driver: MySQL Connector/J
-	Database dialect: MySQLDialect
-	Database version: 8.0.44
-	Default catalog/schema: book/undefined
-	Autocommit mode: undefined/unknown
-	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
-	JDBC fetch size: none
-	Pool: DataSourceConnectionProvider
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-03-24 01:48:41,817 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-03-24 01:48:41,885 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-03-24 01:48:42,042 INFO o.s.d.j.r.q.QueryEnhancerFactories [main] Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-03-24 01:48:43,434 WARN o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-03-24 01:48:43,658 DEBUG o.s.w.s.h.AbstractHandlerMethodMapping [main] 25 mappings in 'requestMappingHandlerMapping'
-2026-03-24 01:48:43,706 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
-2026-03-24 01:48:43,746 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
-2026-03-24 01:48:43,805 DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
-2026-03-24 01:48:44,270 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 13 endpoints beneath base path '/actuator'
-2026-03-24 01:48:44,352 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
-2026-03-24 01:48:44,376 INFO o.s.b.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
-2026-03-24 01:48:44,394 INFO o.s.b.StartupInfoLogger [main] Started DataJpaBooksProjectApplication in 7.582 seconds (process running for 8.452)
-2026-03-24 01:48:44,829 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(8)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-03-24 01:48:44,829 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(8)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
-2026-03-24 01:48:44,830 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(8)-127.0.0.1] Detected StandardServletMultipartResolver
-2026-03-24 01:48:44,830 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(8)-127.0.0.1] Detected AcceptHeaderLocaleResolver
-2026-03-24 01:48:44,832 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(8)-127.0.0.1] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6f4fa62f
-2026-03-24 01:48:44,832 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(8)-127.0.0.1] Detected org.springframework.web.servlet.support.SessionFlashMapManager@1d1071bb
-2026-03-24 01:48:44,832 DEBUG o.s.w.s.FrameworkServlet [RMI TCP Connection(8)-127.0.0.1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2026-03-24 01:48:44,833 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(8)-127.0.0.1] Completed initialization in 4 ms
-2026-03-24 01:48:49,120 DEBUG o.s.c.l.LogFormatUtils [http-nio-8080-exec-1] GET "/book/2", parameters={}
-2026-03-24 01:48:49,131 DEBUG o.s.w.s.h.AbstractHandlerMapping [http-nio-8080-exec-1] Mapped to com.global.book.controller.BookController#findById(Long)
-2026-03-24 01:48:49,194 DEBUG o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-1] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/cbor, application/yaml]
-2026-03-24 01:48:49,196 DEBUG o.s.c.l.LogFormatUtils [http-nio-8080-exec-1] Writing [com.global.book.entity.BookDto@79daeff5]
-2026-03-24 01:48:49,234 DEBUG o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed 200 OK
-2026-03-24 01:51:35,530 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(14)-127.0.0.1] Application shutdown requested.
-2026-03-24 01:51:35,537 INFO o.s.b.t.GracefulShutdown [RMI TCP Connection(14)-127.0.0.1] Commencing graceful shutdown. Waiting for active requests to complete
-2026-03-24 01:51:35,538 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
-2026-03-24 01:51:35,544 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
-2026-03-24 01:51:35,545 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(14)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
-2026-03-24 01:51:35,553 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(14)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-03-24 01:51:35,556 INFO c.z.h.HikariDataSource [RMI TCP Connection(14)-127.0.0.1] HikariPool-1 - Shutdown initiated...
-2026-03-24 01:51:35,562 INFO c.z.h.HikariDataSource [RMI TCP Connection(14)-127.0.0.1] HikariPool-1 - Shutdown completed.
-2026-03-24 01:51:37,981 INFO o.s.b.StartupInfoLogger [main] Starting DataJpaBooksProjectApplication using Java 21.0.8 with PID 18592 (D:\BackEnd RoadMap\new workspace\data-jpa-books-project\target\classes started by HP in D:\BackEnd RoadMap\new workspace\data-jpa-books-project)
-2026-03-24 01:51:37,983 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v4.0.3, Spring v7.0.5
-2026-03-24 01:51:37,984 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2026-03-24 01:51:38,362 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
-2026-03-24 01:51:39,079 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-03-24 01:51:39,137 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 49 ms. Found 2 JPA repository interfaces.
-2026-03-24 01:51:39,938 INFO o.s.b.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
-2026-03-24 01:51:39,950 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
-2026-03-24 01:51:39,951 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
-2026-03-24 01:51:39,952 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-03-24 01:51:40,015 INFO o.s.b.w.c.s.WebApplicationContextInitializer [main] Root WebApplicationContext: initialization completed in 1986 ms
-2026-03-24 01:51:40,181 DEBUG o.s.w.f.GenericFilterBean [main] Filter 'webMvcObservationFilter' configured for use
-2026-03-24 01:51:40,745 INFO o.f.c.i.l.s.Slf4jLog [main] Database: jdbc:mysql://localhost:3306/book (MySQL 8.0)
-2026-03-24 01:51:40,801 INFO o.f.c.i.l.s.Slf4jLog [main] Successfully validated 3 migrations (execution time 00:00.029s)
-2026-03-24 01:51:40,821 INFO o.f.c.i.l.s.Slf4jLog [main] Current version of schema `book`: 2
-2026-03-24 01:51:40,824 INFO o.f.c.i.l.s.Slf4jLog [main] Schema `book` is up to date. No migration necessary.
-2026-03-24 01:51:40,926 INFO o.h.j.i.u.LogHelper [main] HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-03-24 01:51:40,984 INFO o.h.Version [main] HHH000001: Hibernate ORM core version 7.2.4.Final
-2026-03-24 01:51:41,433 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-03-24 01:51:41,466 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
-2026-03-24 01:51:41,493 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a644d75
-2026-03-24 01:51:41,495 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
-2026-03-24 01:51:41,531 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-03-24 01:51:41,550 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [main] HHH10001005: Database info:
-	Database JDBC URL [jdbc:mysql://localhost:3306/book?createDatabaseIfNotExist=true]
-	Database driver: MySQL Connector/J
-	Database dialect: MySQLDialect
-	Database version: 8.0.44
-	Default catalog/schema: book/undefined
-	Autocommit mode: undefined/unknown
-	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
-	JDBC fetch size: none
-	Pool: DataSourceConnectionProvider
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-03-24 01:51:42,493 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-03-24 01:51:42,562 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-03-24 01:51:42,722 INFO o.s.d.j.r.q.QueryEnhancerFactories [main] Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-03-24 01:51:44,020 WARN o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-03-24 01:51:44,231 DEBUG o.s.w.s.h.AbstractHandlerMethodMapping [main] 25 mappings in 'requestMappingHandlerMapping'
-2026-03-24 01:51:44,287 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
-2026-03-24 01:51:44,332 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
-2026-03-24 01:51:44,389 DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
-2026-03-24 01:51:44,849 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 13 endpoints beneath base path '/actuator'
-2026-03-24 01:51:44,931 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
-2026-03-24 01:51:44,949 INFO o.s.b.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
-2026-03-24 01:51:44,962 INFO o.s.b.StartupInfoLogger [main] Started DataJpaBooksProjectApplication in 7.333 seconds (process running for 8.178)
-2026-03-24 01:51:45,666 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(9)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-03-24 01:51:45,666 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(9)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
-2026-03-24 01:51:45,666 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(9)-127.0.0.1] Detected StandardServletMultipartResolver
-2026-03-24 01:51:45,666 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(9)-127.0.0.1] Detected AcceptHeaderLocaleResolver
-2026-03-24 01:51:45,668 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(9)-127.0.0.1] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3e06808f
-2026-03-24 01:51:45,668 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(9)-127.0.0.1] Detected org.springframework.web.servlet.support.SessionFlashMapManager@3f7e5f33
-2026-03-24 01:51:45,669 DEBUG o.s.w.s.FrameworkServlet [RMI TCP Connection(9)-127.0.0.1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2026-03-24 01:51:45,669 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(9)-127.0.0.1] Completed initialization in 3 ms
-2026-03-24 01:52:42,088 DEBUG o.s.c.l.LogFormatUtils [http-nio-8080-exec-1] GET "/book/2", parameters={}
-2026-03-24 01:52:42,098 DEBUG o.s.w.s.h.AbstractHandlerMapping [http-nio-8080-exec-1] Mapped to com.global.book.controller.BookController#findById(Long)
-2026-03-24 01:52:42,155 DEBUG o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-1] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/cbor, application/yaml]
-2026-03-24 01:52:42,155 DEBUG o.s.c.l.LogFormatUtils [http-nio-8080-exec-1] Writing [com.global.book.entity.BookDto@7e1e33cf]
-2026-03-24 01:52:42,188 DEBUG o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed 200 OK
-2026-03-24 01:53:05,145 DEBUG o.s.c.l.LogFormatUtils [http-nio-8080-exec-3] GET "/book", parameters={}
-2026-03-24 01:53:05,148 DEBUG o.s.w.s.h.AbstractHandlerMapping [http-nio-8080-exec-3] Mapped to com.global.book.controller.BookController#findAll()
-2026-03-24 01:53:05,160 DEBUG o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-3] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/cbor, application/yaml]
-2026-03-24 01:53:05,161 DEBUG o.s.c.l.LogFormatUtils [http-nio-8080-exec-3] Writing [[Book [id=1name=Java, price=500.0 ], Book [id=2name=c++, price=300.0 ], Book [id=3name=python, price (truncated)...]
-2026-03-24 01:53:05,164 DEBUG o.s.w.s.FrameworkServlet [http-nio-8080-exec-3] Completed 200 OK
-2026-03-24 01:56:55,737 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(15)-127.0.0.1] Application shutdown requested.
-2026-03-24 01:56:55,743 INFO o.s.b.t.GracefulShutdown [RMI TCP Connection(15)-127.0.0.1] Commencing graceful shutdown. Waiting for active requests to complete
-2026-03-24 01:56:55,746 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
-2026-03-24 01:56:55,751 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
-2026-03-24 01:56:55,752 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(15)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
-2026-03-24 01:56:55,759 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(15)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-03-24 01:56:55,762 INFO c.z.h.HikariDataSource [RMI TCP Connection(15)-127.0.0.1] HikariPool-1 - Shutdown initiated...
-2026-03-24 01:56:55,766 INFO c.z.h.HikariDataSource [RMI TCP Connection(15)-127.0.0.1] HikariPool-1 - Shutdown completed.
-2026-03-24 01:56:58,599 INFO o.s.b.StartupInfoLogger [main] Starting DataJpaBooksProjectApplication using Java 21.0.8 with PID 8280 (D:\BackEnd RoadMap\new workspace\data-jpa-books-project\target\classes started by HP in D:\BackEnd RoadMap\new workspace\data-jpa-books-project)
-2026-03-24 01:56:58,602 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v4.0.3, Spring v7.0.5
-2026-03-24 01:56:58,603 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2026-03-24 01:56:59,002 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
-2026-03-24 01:56:59,724 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-03-24 01:56:59,785 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 51 ms. Found 2 JPA repository interfaces.
-2026-03-24 01:57:00,623 INFO o.s.b.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
-2026-03-24 01:57:00,638 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
-2026-03-24 01:57:00,640 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
-2026-03-24 01:57:00,640 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-03-24 01:57:00,706 INFO o.s.b.w.c.s.WebApplicationContextInitializer [main] Root WebApplicationContext: initialization completed in 2055 ms
-2026-03-24 01:57:00,889 DEBUG o.s.w.f.GenericFilterBean [main] Filter 'webMvcObservationFilter' configured for use
-2026-03-24 01:57:01,481 INFO o.f.c.i.l.s.Slf4jLog [main] Database: jdbc:mysql://localhost:3306/book (MySQL 8.0)
-2026-03-24 01:57:01,538 INFO o.f.c.i.l.s.Slf4jLog [main] Successfully validated 3 migrations (execution time 00:00.030s)
-2026-03-24 01:57:01,556 INFO o.f.c.i.l.s.Slf4jLog [main] Current version of schema `book`: 2
-2026-03-24 01:57:01,560 INFO o.f.c.i.l.s.Slf4jLog [main] Schema `book` is up to date. No migration necessary.
-2026-03-24 01:57:01,658 INFO o.h.j.i.u.LogHelper [main] HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-03-24 01:57:01,717 INFO o.h.Version [main] HHH000001: Hibernate ORM core version 7.2.4.Final
-2026-03-24 01:57:02,158 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-03-24 01:57:02,192 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
-2026-03-24 01:57:02,223 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3bede349
-2026-03-24 01:57:02,225 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
-2026-03-24 01:57:02,269 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-03-24 01:57:02,294 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [main] HHH10001005: Database info:
-	Database JDBC URL [jdbc:mysql://localhost:3306/book?createDatabaseIfNotExist=true]
-	Database driver: MySQL Connector/J
-	Database dialect: MySQLDialect
-	Database version: 8.0.44
-	Default catalog/schema: book/undefined
-	Autocommit mode: undefined/unknown
-	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
-	JDBC fetch size: none
-	Pool: DataSourceConnectionProvider
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-03-24 01:57:03,260 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-03-24 01:57:03,333 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-03-24 01:57:03,498 INFO o.s.d.j.r.q.QueryEnhancerFactories [main] Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-03-24 01:57:04,858 WARN o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-03-24 01:57:05,077 DEBUG o.s.w.s.h.AbstractHandlerMethodMapping [main] 25 mappings in 'requestMappingHandlerMapping'
-2026-03-24 01:57:05,128 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
-2026-03-24 01:57:05,164 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
-2026-03-24 01:57:05,243 DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
-2026-03-24 01:57:05,713 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 13 endpoints beneath base path '/actuator'
-2026-03-24 01:57:05,797 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
-2026-03-24 01:57:05,819 INFO o.s.b.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
-2026-03-24 01:57:05,830 INFO o.s.b.StartupInfoLogger [main] Started DataJpaBooksProjectApplication in 7.598 seconds (process running for 8.491)
-2026-03-24 01:57:06,388 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(9)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-03-24 01:57:06,388 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(9)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
-2026-03-24 01:57:06,388 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(9)-127.0.0.1] Detected StandardServletMultipartResolver
-2026-03-24 01:57:06,389 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(9)-127.0.0.1] Detected AcceptHeaderLocaleResolver
-2026-03-24 01:57:06,390 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(9)-127.0.0.1] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6da2a7be
-2026-03-24 01:57:06,391 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(9)-127.0.0.1] Detected org.springframework.web.servlet.support.SessionFlashMapManager@1d57b043
-2026-03-24 01:57:06,391 DEBUG o.s.w.s.FrameworkServlet [RMI TCP Connection(9)-127.0.0.1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2026-03-24 01:57:06,391 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(9)-127.0.0.1] Completed initialization in 3 ms
-2026-03-24 01:57:36,839 DEBUG o.s.c.l.LogFormatUtils [http-nio-8080-exec-2] GET "/book", parameters={}
-2026-03-24 01:57:36,850 DEBUG o.s.w.s.h.AbstractHandlerMapping [http-nio-8080-exec-2] Mapped to com.global.book.controller.BookController#findAll()
-2026-03-24 01:57:36,890 DEBUG o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-2] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/cbor, application/yaml]
-2026-03-24 01:57:36,891 DEBUG o.s.c.l.LogFormatUtils [http-nio-8080-exec-2] Writing [[Book [id=1name=Java, price=500.0 ], Book [id=2name=c++, price=300.0 ], Book [id=3name=python, price (truncated)...]
-2026-03-24 01:57:36,909 DEBUG o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed 200 OK
-2026-03-24 01:58:08,961 DEBUG o.s.c.l.LogFormatUtils [http-nio-8080-exec-3] GET "/book/2", parameters={}
-2026-03-24 01:58:08,963 DEBUG o.s.w.s.h.AbstractHandlerMapping [http-nio-8080-exec-3] Mapped to com.global.book.controller.BookController#findById(Long)
-2026-03-24 01:58:09,000 DEBUG o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-3] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/cbor, application/yaml]
-2026-03-24 01:58:09,001 DEBUG o.s.c.l.LogFormatUtils [http-nio-8080-exec-3] Writing [com.global.book.entity.BookDto@8d9c0fc]
-2026-03-24 01:58:09,021 DEBUG o.s.w.s.FrameworkServlet [http-nio-8080-exec-3] Completed 200 OK
-2026-03-24 02:01:33,794 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(16)-127.0.0.1] Application shutdown requested.
-2026-03-24 02:01:33,801 INFO o.s.b.t.GracefulShutdown [RMI TCP Connection(16)-127.0.0.1] Commencing graceful shutdown. Waiting for active requests to complete
-2026-03-24 02:01:33,803 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
-2026-03-24 02:01:33,808 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
-2026-03-24 02:01:33,810 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(16)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
-2026-03-24 02:01:33,821 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(16)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-03-24 02:01:33,825 INFO c.z.h.HikariDataSource [RMI TCP Connection(16)-127.0.0.1] HikariPool-1 - Shutdown initiated...
-2026-03-24 02:01:33,831 INFO c.z.h.HikariDataSource [RMI TCP Connection(16)-127.0.0.1] HikariPool-1 - Shutdown completed.
-2026-03-24 02:01:36,694 INFO o.s.b.StartupInfoLogger [main] Starting DataJpaBooksProjectApplication using Java 21.0.8 with PID 17032 (D:\BackEnd RoadMap\new workspace\data-jpa-books-project\target\classes started by HP in D:\BackEnd RoadMap\new workspace\data-jpa-books-project)
-2026-03-24 02:01:36,696 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v4.0.3, Spring v7.0.5
-2026-03-24 02:01:36,698 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2026-03-24 02:01:37,126 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
-2026-03-24 02:01:37,995 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-03-24 02:01:38,056 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 51 ms. Found 2 JPA repository interfaces.
-2026-03-24 02:01:38,672 INFO c.g.b.a.LogTimeAspect [main] KPI:[method-execution]	for: MessageSource com.global.book.config.WebConfig.messageSource()	withArgs: ([],)	took: 3 ms.
-2026-03-24 02:01:38,949 INFO o.s.b.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
-2026-03-24 02:01:38,961 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
-2026-03-24 02:01:38,963 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
-2026-03-24 02:01:38,963 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-03-24 02:01:39,031 INFO o.s.b.w.c.s.WebApplicationContextInitializer [main] Root WebApplicationContext: initialization completed in 2287 ms
-2026-03-24 02:01:39,219 DEBUG o.s.w.f.GenericFilterBean [main] Filter 'webMvcObservationFilter' configured for use
-2026-03-24 02:01:39,806 INFO o.f.c.i.l.s.Slf4jLog [main] Database: jdbc:mysql://localhost:3306/book (MySQL 8.0)
-2026-03-24 02:01:39,865 INFO o.f.c.i.l.s.Slf4jLog [main] Successfully validated 3 migrations (execution time 00:00.031s)
-2026-03-24 02:01:39,885 INFO o.f.c.i.l.s.Slf4jLog [main] Current version of schema `book`: 2
-2026-03-24 02:01:39,890 INFO o.f.c.i.l.s.Slf4jLog [main] Schema `book` is up to date. No migration necessary.
-2026-03-24 02:01:40,018 INFO o.h.j.i.u.LogHelper [main] HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-03-24 02:01:40,076 INFO o.h.Version [main] HHH000001: Hibernate ORM core version 7.2.4.Final
-2026-03-24 02:01:40,524 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-03-24 02:01:40,557 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
-2026-03-24 02:01:40,587 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@58dea0a7
-2026-03-24 02:01:40,588 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
-2026-03-24 02:01:40,628 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-03-24 02:01:40,648 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [main] HHH10001005: Database info:
-	Database JDBC URL [jdbc:mysql://localhost:3306/book?createDatabaseIfNotExist=true]
-	Database driver: MySQL Connector/J
-	Database dialect: MySQLDialect
-	Database version: 8.0.44
-	Default catalog/schema: book/undefined
-	Autocommit mode: undefined/unknown
-	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
-	JDBC fetch size: none
-	Pool: DataSourceConnectionProvider
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-03-24 02:01:41,644 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-03-24 02:01:41,717 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-03-24 02:01:41,765 INFO c.g.b.a.LogTimeAspect [main] KPI:[method-execution]	for: LocalValidatorFactoryBean com.global.book.config.WebConfig.getValidator()	withArgs: ([],)	took: 3 ms.
-2026-03-24 02:01:41,904 INFO o.s.d.j.r.q.QueryEnhancerFactories [main] Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-03-24 02:01:42,725 INFO c.g.b.a.LogTimeAspect [main] KPI:[method-execution]	for: Executor com.global.book.config.SchedulerConfig.asyncExecutor()	withArgs: ([],)	took: 1 ms.
-2026-03-24 02:01:43,017 INFO c.g.b.a.LogTimeAspect [main] KPI:[method-execution]	for: AmazonS3 com.global.book.config.AmazonS3ConfigTest.amazonS3()	withArgs: ([],)	took: 281 ms.
-2026-03-24 02:01:43,098 WARN o.s.a.f.CglibAopProxy [main] Public final method [public final org.springframework.http.ResponseEntity org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler.handleException(java.lang.Exception,org.springframework.web.context.request.WebRequest) throws java.lang.Exception] cannot get proxied via CGLIB, consider removing the final marker or using interface-based JDK proxies.
-2026-03-24 02:01:43,133 INFO c.g.b.a.LogTimeAspect [main] KPI:[method-execution]	for: LockProvider com.global.book.config.SchedulerConfig.lockProvider(DataSource)	withArgs: ([HikariDataSource (HikariPool-1)],)	took: 12 ms.
-2026-03-24 02:01:43,138 INFO c.g.b.a.LogTimeAspect [main] KPI:[method-execution]	for: GroupedOpenApi com.global.book.config.SwaggerConfig.bookManagementApi()	withArgs: ([],)	took: 3 ms.
-2026-03-24 02:01:43,140 INFO c.g.b.a.LogTimeAspect [main] KPI:[method-execution]	for: AuditorAware com.global.book.config.WebConfig.auditorAware()	withArgs: ([],)	took: 1 ms.
-2026-03-24 02:01:43,282 WARN o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-03-24 02:01:43,349 INFO c.g.b.a.LogTimeAspect [main] KPI:[method-execution]	for: LocalValidatorFactoryBean com.global.book.config.WebConfig.getValidator()	withArgs: ([],)	took: 0 ms.
-2026-03-24 02:01:43,507 DEBUG o.s.w.s.h.AbstractHandlerMethodMapping [main] 25 mappings in 'requestMappingHandlerMapping'
-2026-03-24 02:01:43,560 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
-2026-03-24 02:01:43,607 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
-2026-03-24 02:01:43,675 DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
-2026-03-24 02:01:43,767 INFO c.g.b.a.LogTimeAspect [main] KPI:[method-execution]	for: OpenAPI com.global.book.config.OpenApiConfig.customOpenApi(String,String)	withArgs: ([Book Apis, 1.3],)	took: 1 ms.
-2026-03-24 02:01:43,777 INFO c.g.b.a.LogTimeAspect [main] KPI:[method-execution]	for: OpenAPI com.global.book.config.OpenApiConfig.customOpenApi(String,String)	withArgs: ([Book Apis, 1.3],)	took: 0 ms.
-2026-03-24 02:01:44,253 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 13 endpoints beneath base path '/actuator'
-2026-03-24 02:01:44,337 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
-2026-03-24 02:01:44,355 INFO o.s.b.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
-2026-03-24 02:01:44,367 INFO o.s.b.StartupInfoLogger [main] Started DataJpaBooksProjectApplication in 8.03 seconds (process running for 8.952)
-2026-03-24 02:01:44,487 INFO c.g.b.a.LogTimeAspect [main] KPI:[method-execution]	for: List org.springframework.data.repository.ListCrudRepository.findAll()	withArgs: ([],)	took: 107 ms.
-2026-03-24 02:01:44,487 INFO c.g.b.a.LogTimeAspect [main] KPI:[method-execution]	for: List com.global.book.base.BaseService.findAll()	withArgs: ([],)	took: 110 ms.
-2026-03-24 02:01:44,505 INFO c.g.b.a.LogTimeAspect [main] KPI:[method-execution]	for: List com.global.book.repository.BookRepo.findAll()	withArgs: ([],)	took: 15 ms.
-2026-03-24 02:01:44,505 INFO c.g.b.a.LogTimeAspect [main] KPI:[method-execution]	for: List com.global.book.base.BaseService.findAll()	withArgs: ([],)	took: 16 ms.
-2026-03-24 02:01:44,505 INFO c.g.b.a.LogTimeAspect [main] KPI:[method-execution]	for: void com.global.book.config.StartUpApp.run(String[])	withArgs: ([[Ljava.lang.String;@637721f4],)	took: 129 ms.
-2026-03-24 02:01:44,926 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(10)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-03-24 02:01:44,926 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(10)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
-2026-03-24 02:01:44,927 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(10)-127.0.0.1] Detected StandardServletMultipartResolver
-2026-03-24 02:01:44,927 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(10)-127.0.0.1] Detected AcceptHeaderLocaleResolver
-2026-03-24 02:01:44,928 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(10)-127.0.0.1] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2fc6e673
-2026-03-24 02:01:44,929 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(10)-127.0.0.1] Detected org.springframework.web.servlet.support.SessionFlashMapManager@7ffdded5
-2026-03-24 02:01:44,930 DEBUG o.s.w.s.FrameworkServlet [RMI TCP Connection(10)-127.0.0.1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2026-03-24 02:01:44,930 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(10)-127.0.0.1] Completed initialization in 4 ms
-2026-03-24 02:02:23,127 DEBUG o.s.c.l.LogFormatUtils [http-nio-8080-exec-1] GET "/book/2", parameters={}
-2026-03-24 02:02:23,138 DEBUG o.s.w.s.h.AbstractHandlerMapping [http-nio-8080-exec-1] Mapped to com.global.book.controller.BookController#findById(Long)
-2026-03-24 02:02:23,185 INFO c.g.b.a.LogTimeAspect [http-nio-8080-exec-1] KPI:[method-execution]	for: Optional com.global.book.repository.BookRepo.findById(Long)	withArgs: ([2],)	took: 24 ms.
-2026-03-24 02:02:23,185 INFO c.g.b.a.LogTimeAspect [http-nio-8080-exec-1] KPI:[method-execution]	for: BaseEntity com.global.book.base.BaseService.findById(Number)	withArgs: ([2],)	took: 26 ms.
-2026-03-24 02:02:23,190 INFO c.g.b.a.LogTimeAspect [http-nio-8080-exec-1] KPI:[method-execution]	for: ResponseEntity com.global.book.controller.BookController.findById(Long)	withArgs: ([2],)	took: 31 ms.
-2026-03-24 02:02:23,204 DEBUG o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-1] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/cbor, application/yaml]
-2026-03-24 02:02:23,207 DEBUG o.s.c.l.LogFormatUtils [http-nio-8080-exec-1] Writing [com.global.book.entity.BookDto@3d73013f]
-2026-03-24 02:02:23,244 DEBUG o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed 200 OK
-2026-03-24 02:08:31,049 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(18)-127.0.0.1] Application shutdown requested.
-2026-03-24 02:08:31,055 INFO o.s.b.t.GracefulShutdown [RMI TCP Connection(18)-127.0.0.1] Commencing graceful shutdown. Waiting for active requests to complete
-2026-03-24 02:08:31,057 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
-2026-03-24 02:08:31,062 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
-2026-03-24 02:08:31,062 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(18)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
-2026-03-24 02:08:31,071 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(18)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-03-24 02:08:31,074 INFO c.z.h.HikariDataSource [RMI TCP Connection(18)-127.0.0.1] HikariPool-1 - Shutdown initiated...
-2026-03-24 02:08:31,078 INFO c.z.h.HikariDataSource [RMI TCP Connection(18)-127.0.0.1] HikariPool-1 - Shutdown completed.
-2026-03-24 02:08:33,968 INFO o.s.b.StartupInfoLogger [main] Starting DataJpaBooksProjectApplication using Java 21.0.8 with PID 10888 (D:\BackEnd RoadMap\new workspace\data-jpa-books-project\target\classes started by HP in D:\BackEnd RoadMap\new workspace\data-jpa-books-project)
-2026-03-24 02:08:33,971 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v4.0.3, Spring v7.0.5
-2026-03-24 02:08:33,972 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2026-03-24 02:08:34,397 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
-2026-03-24 02:08:35,147 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-03-24 02:08:35,207 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 51 ms. Found 2 JPA repository interfaces.
-2026-03-24 02:08:35,965 INFO o.s.b.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
-2026-03-24 02:08:35,977 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
-2026-03-24 02:08:35,978 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
-2026-03-24 02:08:35,979 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-03-24 02:08:36,048 INFO o.s.b.w.c.s.WebApplicationContextInitializer [main] Root WebApplicationContext: initialization completed in 2029 ms
-2026-03-24 02:08:36,193 DEBUG o.s.w.f.GenericFilterBean [main] Filter 'webMvcObservationFilter' configured for use
-2026-03-24 02:08:36,785 INFO o.f.c.i.l.s.Slf4jLog [main] Database: jdbc:mysql://localhost:3306/book (MySQL 8.0)
-2026-03-24 02:08:36,842 INFO o.f.c.i.l.s.Slf4jLog [main] Successfully validated 3 migrations (execution time 00:00.030s)
-2026-03-24 02:08:36,862 INFO o.f.c.i.l.s.Slf4jLog [main] Current version of schema `book`: 2
-2026-03-24 02:08:36,867 INFO o.f.c.i.l.s.Slf4jLog [main] Schema `book` is up to date. No migration necessary.
-2026-03-24 02:08:36,961 INFO o.h.j.i.u.LogHelper [main] HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-03-24 02:08:37,014 INFO o.h.Version [main] HHH000001: Hibernate ORM core version 7.2.4.Final
-2026-03-24 02:08:37,453 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-03-24 02:08:37,485 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
-2026-03-24 02:08:37,513 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6edb093f
-2026-03-24 02:08:37,515 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
-2026-03-24 02:08:37,552 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-03-24 02:08:37,572 INFO o.h.e.j.e.i.JdbcEnvironmentInitiator [main] HHH10001005: Database info:
-	Database JDBC URL [jdbc:mysql://localhost:3306/book?createDatabaseIfNotExist=true]
-	Database driver: MySQL Connector/J
-	Database dialect: MySQLDialect
-	Database version: 8.0.44
-	Default catalog/schema: book/undefined
-	Autocommit mode: undefined/unknown
-	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
-	JDBC fetch size: none
-	Pool: DataSourceConnectionProvider
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-03-24 02:08:38,544 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-03-24 02:08:38,614 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-03-24 02:08:38,715 INFO o.s.d.j.r.q.QueryEnhancerFactories [main] Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-03-24 02:08:40,002 WARN o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-03-24 02:08:40,192 DEBUG o.s.w.s.h.AbstractHandlerMethodMapping [main] 25 mappings in 'requestMappingHandlerMapping'
-2026-03-24 02:08:40,236 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
-2026-03-24 02:08:40,270 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
-2026-03-24 02:08:40,324 DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
-2026-03-24 02:08:40,717 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 13 endpoints beneath base path '/actuator'
-2026-03-24 02:08:40,795 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
-2026-03-24 02:08:40,813 INFO o.s.b.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
-2026-03-24 02:08:40,825 INFO o.s.b.StartupInfoLogger [main] Started DataJpaBooksProjectApplication in 7.229 seconds (process running for 8.101)
-2026-03-24 02:08:40,955 INFO c.g.b.a.LogTimeAspect [main] KPI:[method-execution]	for: List com.global.book.base.BaseService.findAll()	withArgs: ([],)	took: 121 ms.
-2026-03-24 02:08:40,972 INFO c.g.b.a.LogTimeAspect [main] KPI:[method-execution]	for: List com.global.book.base.BaseService.findAll()	withArgs: ([],)	took: 17 ms.
-2026-03-24 02:08:41,225 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(10)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-03-24 02:08:41,225 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(10)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
-2026-03-24 02:08:41,225 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(10)-127.0.0.1] Detected StandardServletMultipartResolver
-2026-03-24 02:08:41,225 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(10)-127.0.0.1] Detected AcceptHeaderLocaleResolver
-2026-03-24 02:08:41,227 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(10)-127.0.0.1] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5f851718
-2026-03-24 02:08:41,228 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(10)-127.0.0.1] Detected org.springframework.web.servlet.support.SessionFlashMapManager@f4903ac
-2026-03-24 02:08:41,228 DEBUG o.s.w.s.FrameworkServlet [RMI TCP Connection(10)-127.0.0.1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2026-03-24 02:08:41,228 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(10)-127.0.0.1] Completed initialization in 3 ms
-2026-03-24 02:08:47,124 DEBUG o.s.c.l.LogFormatUtils [http-nio-8080-exec-2] GET "/book/2", parameters={}
-2026-03-24 02:08:47,135 DEBUG o.s.w.s.h.AbstractHandlerMapping [http-nio-8080-exec-2] Mapped to com.global.book.controller.BookController#findById(Long)
-2026-03-24 02:08:47,176 INFO c.g.b.a.LogTimeAspect [http-nio-8080-exec-2] KPI:[method-execution]	for: BaseEntity com.global.book.base.BaseService.findById(Number)	withArgs: ([2],)	took: 19 ms.
-2026-03-24 02:08:47,191 DEBUG o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-2] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/cbor, application/yaml]
-2026-03-24 02:08:47,193 DEBUG o.s.c.l.LogFormatUtils [http-nio-8080-exec-2] Writing [com.global.book.entity.BookDto@53bbde3a]
-2026-03-24 02:08:47,226 DEBUG o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed 200 OK
+2026-03-26 23:35:52,660 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-26 23:35:52,732 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-26 23:35:52,904 INFO o.s.d.j.r.q.QueryEnhancerFactories [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-26 23:35:54,238 WARN o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-26 23:35:54,458 DEBUG o.s.w.s.h.AbstractHandlerMethodMapping [main] 25 mappings in 'requestMappingHandlerMapping'
+2026-03-26 23:35:54,512 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-03-26 23:35:54,548 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-03-26 23:35:54,606 DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-03-26 23:35:55,120 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 13 endpoints beneath base path '/actuator'
+2026-03-26 23:35:55,203 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2026-03-26 23:35:55,220 INFO o.s.b.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
+2026-03-26 23:35:55,230 INFO o.s.b.StartupInfoLogger [main] Started DataJpaBooksProjectApplication in 7.426 seconds (process running for 8.286)
+2026-03-26 23:35:55,240 INFO c.g.b.a.LogTimeAspect [main] Method name is =>>> BaseService.findAll()
+2026-03-26 23:35:55,243 INFO c.g.b.a.LogTimeAspect [main] Method name is =>>> ListCrudRepository.findAll()
+2026-03-26 23:35:55,377 INFO c.g.b.a.MeasurmentAspect [main] KPI:[method-execution]	for: List com.global.book.base.BaseService.findAll()	withArgs: ([],)	took: 137 ms.
+2026-03-26 23:35:55,377 INFO c.g.b.a.LogTimeAspect [main] Method name is =>>> BaseService.findAll()
+2026-03-26 23:35:55,378 INFO c.g.b.a.LogTimeAspect [main] Method name is =>>> BookRepo.findAll()
+2026-03-26 23:35:55,396 INFO c.g.b.a.MeasurmentAspect [main] KPI:[method-execution]	for: List com.global.book.base.BaseService.findAll()	withArgs: ([],)	took: 19 ms.
+2026-03-26 23:35:56,249 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(10)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-26 23:35:56,249 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(10)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2026-03-26 23:35:56,249 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(10)-127.0.0.1] Detected StandardServletMultipartResolver
+2026-03-26 23:35:56,249 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(10)-127.0.0.1] Detected AcceptHeaderLocaleResolver
+2026-03-26 23:35:56,251 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(10)-127.0.0.1] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@42593f64
+2026-03-26 23:35:56,252 DEBUG o.s.w.s.DispatcherServlet [RMI TCP Connection(10)-127.0.0.1] Detected org.springframework.web.servlet.support.SessionFlashMapManager@250cb65a
+2026-03-26 23:35:56,252 DEBUG o.s.w.s.FrameworkServlet [RMI TCP Connection(10)-127.0.0.1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-03-26 23:35:56,252 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(10)-127.0.0.1] Completed initialization in 3 ms

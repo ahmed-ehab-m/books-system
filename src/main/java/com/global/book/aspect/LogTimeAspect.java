@@ -1,37 +1,63 @@
 package com.global.book.aspect;
 
 import java.util.Arrays;
+
+import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.Pointcut;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 
 @Aspect
+@Order(0)
 @Component
 public class LogTimeAspect {
 	
 	Logger log=LoggerFactory.getLogger(LogTimeAspect.class);
 	
 	
-	// fully monitor the function
-	// before and in and after
-	// execution => means is second of execution of function
-	// and give him filter expression (point cut) to determine this advice will be executed or not 
-	// return type + path + name of class +name of function + parameters of function
-//	@Around(value = "execution(* com.global.book.service.*.*(..))")
-	@Around(value = "execution(* com.global.book.base.BaseService.*(..))")
-	public Object logTime(ProceedingJoinPoint joinPoint) throws Throwable
-	{
-		long startTime =System.currentTimeMillis();
-		StringBuilder sb =new StringBuilder("KPI:");
-		sb.append("[").append(joinPoint.getKind()).append("]\tfor: ").append(joinPoint.getSignature())
-		.append("\twithArgs: ").append("(").append(Arrays.toString(joinPoint.getArgs())).append(",").append(")");
-		sb.append("\ttook: ");
-		Object returnValue=joinPoint.proceed();
-		log.info(sb.append((System.currentTimeMillis()- startTime)).append(" ms.").toString());
-	    return returnValue;
+	@Pointcut(value = "execution(* com.global.book.repository..*(..))")
+	public void forRepoLog () {
+		
 	}
+	
+	@Pointcut(value = "execution(* com.global.book.service..*(..))")
+	public void forServiceLog () {
+		
+	}
+	
+	@Pointcut(value = "execution(* com.global.book.controller..*(..))")
+	public void forControllerLog () {
+		
+	}
+	
+	@Pointcut(value = "execution(* com.global.book.base..*(..))")
+	public void forBaseLog() {}
+	
+	@Pointcut(value = "forRepoLog () || forServiceLog () || forControllerLog () || forBaseLog()")
+	public void forAllApp () {
+		
+	}
+	
+	
+	@Before(value = "forAllApp()")
+	public void beforeMethod (JoinPoint joinPoint) {
+		
+		String methodName=joinPoint.getSignature().toShortString();
+		
+		log.info("Method name is =>>> "+methodName);
+		Object [] args= joinPoint.getArgs();
+		for(Object arg :args)
+		{
+			log.info(" with arguments is =>>> "+arg);
+
+		}
+	}
+	
 }

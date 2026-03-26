@@ -28,6 +28,7 @@ import com.amazonaws.services.s3.model.PutObjectResult;
 import com.amazonaws.util.IOUtils;
 import com.global.book.entity.Author;
 import com.global.book.error.FileStorageException;
+import com.global.book.repository.AuthorRepo;
 import com.google.api.client.auth.oauth2.Credential;
 import com.google.auth.Credentials;
 import com.google.auth.oauth2.GoogleCredentials;
@@ -37,28 +38,30 @@ import com.google.cloud.storage.Storage;
 import com.google.cloud.storage.StorageOptions;
 
 import io.micrometer.common.util.StringUtils;
+import lombok.RequiredArgsConstructor;
+import lombok.extern.log4j.Log4j2;
 
 
 @Service
+@RequiredArgsConstructor // instead of autowired (constructor injection)
+
+@Log4j2 // give me a log variable to use it in code
 public class FileUploadService {
 
     private final Executor threadPoolTaskExecutor;
 	
-    Logger log=LoggerFactory.getLogger( FileUploadService.class);
     private Path fileStorageLocation;
-    
+     
 //    @Value("${file.upload.base-path}")
     private  String basePath;
     
-    @Autowired
-    private AuthorService authorService;
+    private final AuthorService authorService;
     
     ///////////////aws 
 //    @Value("${aws-s3.bucket}")
     private String awsBucketName;
     
-    @Autowired
-    private  AmazonS3 amazonS3;
+    private final AmazonS3 amazonS3;
    
     
     // google
@@ -74,9 +77,9 @@ public class FileUploadService {
     
 //////////////////////////////////////
 
-    FileUploadService(Executor threadPoolTaskExecutor) {
-        this.threadPoolTaskExecutor = threadPoolTaskExecutor;
-    }
+//    FileUploadService(Executor threadPoolTaskExecutor) {
+//        this.threadPoolTaskExecutor = threadPoolTaskExecutor;
+//    }
     /////////////////////////
     
     public String cloudUploadFile(MultipartFile file ,Long id ,String pathType)

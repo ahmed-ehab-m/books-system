@@ -12,6 +12,7 @@ import com.global.book.error.RecordNotFoundException;
 import jakarta.persistence.MappedSuperclass;
 
 @MappedSuperclass
+
 public class BaseService <T extends BaseEntity<ID> ,ID extends Number>{
 	
 	@Autowired

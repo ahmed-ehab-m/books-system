@@ -3,6 +3,7 @@ package com.global.book.entity;
 
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 import org.hibernate.annotations.Formula;
 import org.springframework.data.annotation.CreatedBy;
@@ -33,6 +34,10 @@ import jakarta.persistence.Transient;
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotNull;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 @Entity
 @Table(name = "books")
@@ -42,6 +47,10 @@ parameters = {
 		@StoredProcedureParameter(mode=ParameterMode.IN,name = "author_id_in",type = String.class),
 		@StoredProcedureParameter(mode=ParameterMode.OUT,name = "book_count",type= Integer.class)
 })
+@Setter
+@Getter
+@NoArgsConstructor
+@AllArgsConstructor
 public class Book extends BaseEntity<Long>{
 	
 	@NotNull(message = "Should be enter book name")
@@ -68,60 +77,5 @@ public class Book extends BaseEntity<Long>{
 	private Author author;
 	
 	
-	public Long getBookCount() {
-		return bookCount;
-	}
-
-	public void setBookCount(Long bookCount) {
-		this.bookCount = bookCount;
-	}
-
-	public Double getDiscounted() {
-		return discounted;
-	}
-
-	public void setDiscounted(Double discounted) {
-		this.discounted = discounted;
-	}
-	
-	@PostLoad 
-	private void calcDisCount()
-	{
-		this.setDiscounted(price*0.25);
-	}
-
-	
-
-	
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public Double getPrice() {
-		return price;
-	}
-
-	public void setPrice(Double price) {
-		this.price = price;
-	}
-
-	public Author getAuthor() {
-		return author;
-	}
-
-	public void setAuthor(Author author) {
-		this.author = author;
-	}
-
-	@Override
-	public String toString() {
-		return "Book [id="+getId() +"name=" + name + ", price=" +
-	price+" ]";
-	}
 
 }

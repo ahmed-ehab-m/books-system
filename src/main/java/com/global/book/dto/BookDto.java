@@ -1,5 +1,9 @@
-package com.global.book.entity;
+package com.global.book.dto;
 
+
+import java.util.List;
+
+import com.global.book.entity.Author;
 
 import io.micrometer.common.lang.NonNull;
 import jakarta.persistence.Entity;
@@ -14,8 +18,15 @@ import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
-
+@Setter
+@Getter
+@NoArgsConstructor
+@AllArgsConstructor
 public class BookDto {
 	
 
@@ -29,39 +40,6 @@ public class BookDto {
 	@NotNull
 	private Author author;
 		
-
-	public Author getAuthor() {
-		return author;
-	} 
-
-	public void setAuthor(Author author) {
-		this.author = author;
-	}
-
-	public Long getId() {
-		return id;
-	}
-
-	public void setId(Long id) {
-		this.id = id;
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public Double getPrice() {
-		return price;
-	}
-
-	public void setPrice(Double price) {
-		this.price = price;
-	}
-
 
 	
 }

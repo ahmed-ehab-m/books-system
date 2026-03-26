@@ -19,11 +19,26 @@ import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Pattern;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
 
 
 @Schema(name = "Book Entity")
 @Entity
 @Table(name = "authors")
+@Setter
+@Getter
+@NoArgsConstructor
+@AllArgsConstructor
+//@ToString  don't use  in entity
+//@EqualsAndHashCode don't use in entity
+//@Data // Equivalent to @Getter @Setter @RequiredArgsConstructor @ToString @EqualsAndHashCode
+// don't use data in entity
 //@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class Author extends BaseEntity<Long>{
 	
@@ -48,55 +63,5 @@ public class Author extends BaseEntity<Long>{
 	private Long bookCount;
 	
 	private String imagePath;
-	
-	public String getImagePath() {
-		return imagePath;
-	}
-	public void setImagePath(String imagePath) {
-		this.imagePath = imagePath;
-	}
-	public String getEmail() {
-		return email;
-	}
-	public void setEmail(String email) {
-		this.email = email;
-	}
-	public String getIpAddress() {
-		return ipAddress;
-	}
-	public void setIpAddress(String ipAddress) {
-		this.ipAddress = ipAddress;
-	}
-	public Long getBookCount() {
-		return bookCount;
-	}
-	public void setBookCount(Long bookCount) {
-		this.bookCount = bookCount;
-	}
-	
-	public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name; 
-	}
-	
-	public List<Book> getBooks() {
-		return books;
-	}
-	public void setBooks(List<Book> books) {
-		this.books = books;
-	}
-	public void addBook(Book book)
-	{
-		books.add(book);
-	}
-	public void removeBook(Book book)
-	{
-		books.remove(book);
-	}
-	
-	
-	
 	
 }

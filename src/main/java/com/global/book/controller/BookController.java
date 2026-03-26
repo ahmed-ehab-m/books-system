@@ -1,6 +1,8 @@
 package com.global.book.controller;
 
 
+import java.util.concurrent.Executor;
+
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,11 +14,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.amazonaws.services.s3.AmazonS3;
+import com.global.book.dto.BookDto;
 import com.global.book.entity.Author;
 import com.global.book.entity.Book;
-import com.global.book.entity.BookDto;
 import com.global.book.service.AuthorService;
 import com.global.book.service.BookService;
+import com.global.book.service.FileUploadService;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
@@ -26,16 +30,17 @@ import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
+import lombok.RequiredArgsConstructor;
+import lombok.extern.log4j.Log4j2;
 
 @RestController
 @RequestMapping("/book")
 @Tag(name = "book service api controller")
+@RequiredArgsConstructor // instead of autowired (constructor injection)
+
 public class BookController {
-	private BookService bookService;
-	public BookController(BookService bookService) {
-		super();
-		this.bookService = bookService;
-	}
+	private final BookService bookService;
+
 	
 	
 	@Operation(summary = "Get book by it's id")

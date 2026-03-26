@@ -9,12 +9,17 @@ import org.springframework.scheduling.annotation.Async;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
+import com.global.book.repository.AuthorRepo;
+
+import lombok.RequiredArgsConstructor;
+import lombok.extern.log4j.Log4j2;
 import net.javacrumbs.shedlock.spring.annotation.SchedulerLock;
 
 @Component
+
+@Log4j2 // give me a log variable to use it in code
 public class PriceSchedule {
 	
-	Logger log=LoggerFactory.getLogger(PriceSchedule.class);
 	
 //	@Scheduled(cron= "${interval-in-cron}")
 //	@Scheduled(fixedRate = 2000)
