@@ -62,7 +62,7 @@ public class BookController {
 		 dto.setId(book.getId()); 
 		 dto.setName(book.getName());
 		 dto.setPrice(book.getPrice());
-		 dto.setAuthor(book.getAuthor());
+//		 dto.setAuthor(book.getAuthor());
 		return ResponseEntity.ok(dto);
 	}
 	
@@ -80,7 +80,7 @@ public class BookController {
 		Book book=new Book();
 		book.setName(dto.getName());
 		book.setPrice(dto.getPrice());
-		book.setAuthor(dto.getAuthor());
+//		book.setAuthor(dto.getAuthor());
 		return ResponseEntity.ok(bookService.insert(book));
 		
 	}

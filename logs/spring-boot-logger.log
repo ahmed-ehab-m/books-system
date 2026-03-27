@@ -2140,3 +2140,11 @@ java.util.NoSuchElementException: No value present
 2026-03-27 01:44:45,095 DEBUG o.s.w.s.m.m.a.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-6] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/cbor, application/yaml]
 2026-03-27 01:44:45,095 DEBUG o.s.c.l.LogFormatUtils [http-nio-8080-exec-6] Writing [com.global.book.dto.AuthorDto@1ecfca3e]
 2026-03-27 01:44:45,096 DEBUG o.s.w.s.FrameworkServlet [http-nio-8080-exec-6] Completed 200 OK
+2026-03-27 01:46:35,114 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(15)-127.0.0.1] Application shutdown requested.
+2026-03-27 01:46:35,119 INFO o.s.b.t.GracefulShutdown [RMI TCP Connection(15)-127.0.0.1] Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-27 01:46:35,120 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2026-03-27 01:46:35,123 INFO o.s.b.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2026-03-27 01:46:35,124 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(15)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2026-03-27 01:46:35,131 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(15)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-27 01:46:35,135 INFO c.z.h.HikariDataSource [RMI TCP Connection(15)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2026-03-27 01:46:35,139 INFO c.z.h.HikariDataSource [RMI TCP Connection(15)-127.0.0.1] HikariPool-1 - Shutdown completed.

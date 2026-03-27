@@ -37,8 +37,10 @@ public class BookDto extends BaseDto<Long> {
 	private Double price;	
 	
 	@NotNull
-	private Author author;
+	private AuthorDto author;
 		
-
+	private String authorName;
+	
+	private String authorEmail;
 	
 }
