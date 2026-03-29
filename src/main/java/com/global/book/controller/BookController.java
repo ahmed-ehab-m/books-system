@@ -40,9 +40,6 @@ import lombok.extern.log4j.Log4j2;
 
 public class BookController {
 	private final BookService bookService;
-
-	
-	
 	@Operation(summary = "Get book by it's id")
 	@ApiResponses(value = {
 			@ApiResponse(responseCode = "200", description = "Found The Book",
